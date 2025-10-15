@@ -1,0 +1,72 @@
+# vsim -debugDB -coverage -l reg_init_chk.log -c test_bench -voptargs="+access+cover=bcesft" -assertdebug -do "coverage save -onexit reg_init_chk.ucdb; log -r /*;run -all" 
+# Start time: 14:31:51 on Sep 28,2025
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Note: (vsim-8611) Generating debug db.
+# ** Warning: (vopt-4308) Enabling visibility using +acc is recommended with debug flow.
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=1.
+# //  Questa Intel Starter FPGA Edition-64
+# //  Version 2024.3 linux_x86_64 Sep 10 2024
+# //
+# // Unpublished work. Copyright 2024 Siemens
+# //
+# // This material contains trade secrets or otherwise confidential information
+# // owned by Siemens Industry Software Inc. or its affiliates (collectively,
+# // "SISW"), or its licensors. Access to and use of this information is strictly
+# // limited as set forth in the Customer's applicable agreements with SISW.
+# //
+# // This material may not be copied, distributed, or otherwise disclosed outside
+# // of the Customer's facilities without the express written permission of SISW,
+# // and may not be used in any way not expressly authorized by SISW.
+# //
+# Loading work.test_bench(fast)
+# Loading work.timer_top(fast)
+# Loading work.apb_slave(fast)
+# Loading work.reg_file(fast)
+# Loading work.counter_ctrl(fast)
+# Loading work.interrupt(fast)
+# Loading work.mod_golden_cnt(fast)
+# ** Note: (vsim-8900) Creating design debug database vsim.dbg.
+# coverage save -onexit reg_init_chk.ucdb
+#  log -r /*
+# run -all
+# ====================================
+# ==== Pat name: check reset value ===
+# ====================================
+# t=       275 [TB_READ]: addr=00000000 rdata=00000100
+# ------------------------------------------------
+# t=       275 PASS: rdata = 00000100 at addr 00000000 is correct
+# ------------------------------------------------
+# t=       475 [TB_READ]: addr=00000004 rdata=00000000
+# ------------------------------------------------
+# t=       475 PASS: rdata = 00000000 at addr 00000004 is correct
+# ------------------------------------------------
+# t=       675 [TB_READ]: addr=00000008 rdata=00000000
+# ------------------------------------------------
+# t=       675 PASS: rdata = 00000000 at addr 00000008 is correct
+# ------------------------------------------------
+# t=       875 [TB_READ]: addr=0000000c rdata=ffffffff
+# ------------------------------------------------
+# t=       875 PASS: rdata = ffffffff at addr 0000000c is correct
+# ------------------------------------------------
+# t=      1075 [TB_READ]: addr=00000010 rdata=ffffffff
+# ------------------------------------------------
+# t=      1075 PASS: rdata = ffffffff at addr 00000010 is correct
+# ------------------------------------------------
+# t=      1275 [TB_READ]: addr=00000014 rdata=00000000
+# ------------------------------------------------
+# t=      1275 PASS: rdata = 00000000 at addr 00000014 is correct
+# ------------------------------------------------
+# t=      1475 [TB_READ]: addr=00000018 rdata=00000000
+# ------------------------------------------------
+# t=      1475 PASS: rdata = 00000000 at addr 00000018 is correct
+# ------------------------------------------------
+# t=      1675 [TB_READ]: addr=0000001c rdata=00000000
+# ------------------------------------------------
+# t=      1675 PASS: rdata = 00000000 at addr 0000001c is correct
+# ------------------------------------------------
+# Test_result PASSED
+# ** Note: $finish    : ../tb/test_bench.v(94)
+#    Time: 1775 ns  Iteration: 0  Instance: /test_bench
+# Saving coverage database on exit...
+# End time: 14:31:52 on Sep 28,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 1

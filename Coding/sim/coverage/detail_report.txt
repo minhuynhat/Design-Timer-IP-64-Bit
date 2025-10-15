@@ -1,0 +1,1895 @@
+Coverage Report by instance with details
+
+=================================================================================
+=== Instance: /test_bench/u_timer/u1
+=== Design Unit: work.reg_file
+=================================================================================
+Toggle Coverage:
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Toggles                       1054       818       236    77.60%
+
+================================Toggle Details================================
+
+Toggle Coverage for instance /test_bench/u_timer/u1 --
+
+                                              Node      1H->0L      0L->1H  "Coverage"
+                                              ---------------------------------------
+                                         addr[0-1]           1           1      100.00 
+                                           addr[2]          12          12      100.00 
+                                           addr[3]          10          10      100.00 
+                                           addr[4]           8           8      100.00 
+                                        addr[5-11]           1           1      100.00 
+                                     addr_tcmp0[0]           2           1      100.00 
+                                     addr_tcmp0[1]           3           2      100.00 
+                                     addr_tcmp0[2]           2           2      100.00 
+                                     addr_tcmp0[3]           3           2      100.00 
+                                     addr_tcmp0[4]           2           1      100.00 
+                                     addr_tcmp0[5]           3           1      100.00 
+                                     addr_tcmp0[6]           2           2      100.00 
+                                     addr_tcmp0[7]           3           1      100.00 
+                                     addr_tcmp0[8]           3           3      100.00 
+                                     addr_tcmp0[9]           4           2      100.00 
+                                    addr_tcmp0[10]           3           3      100.00 
+                                    addr_tcmp0[11]           4           2      100.00 
+                                    addr_tcmp0[12]           3           3      100.00 
+                                    addr_tcmp0[13]           4           2      100.00 
+                                    addr_tcmp0[14]           3           3      100.00 
+                                    addr_tcmp0[15]           4           2      100.00 
+                                    addr_tcmp0[16]           3           2      100.00 
+                                    addr_tcmp0[17]           4           2      100.00 
+                                    addr_tcmp0[18]           3           3      100.00 
+                                    addr_tcmp0[19]           4           2      100.00 
+                                    addr_tcmp0[20]           3           2      100.00 
+                                    addr_tcmp0[21]           4           2      100.00 
+                                    addr_tcmp0[22]           3           3      100.00 
+                                    addr_tcmp0[23]           4           2      100.00 
+                                    addr_tcmp0[24]           3           2      100.00 
+                                    addr_tcmp0[25]           4           3      100.00 
+                                    addr_tcmp0[26]           3           2      100.00 
+                                    addr_tcmp0[27]           4           2      100.00 
+                                    addr_tcmp0[28]           3           2      100.00 
+                                    addr_tcmp0[29]           4           3      100.00 
+                                    addr_tcmp0[30]           3           2      100.00 
+                                    addr_tcmp0[31]           4           2      100.00 
+                                     addr_tcmp1[0]           4           2      100.00 
+                                     addr_tcmp1[1]           3           2      100.00 
+                                     addr_tcmp1[2]           3           3      100.00 
+                                   addr_tcmp1[3-4]           4           2      100.00 
+                                     addr_tcmp1[5]           3           2      100.00 
+                                     addr_tcmp1[6]           3           3      100.00 
+                                     addr_tcmp1[7]           4           2      100.00 
+                                     addr_tcmp1[8]           4           3      100.00 
+                                     addr_tcmp1[9]           3           2      100.00 
+                                    addr_tcmp1[10]           3           3      100.00 
+                                    addr_tcmp1[11]           4           2      100.00 
+                                    addr_tcmp1[12]           4           3      100.00 
+                                    addr_tcmp1[13]           3           2      100.00 
+                                    addr_tcmp1[14]           3           3      100.00 
+                                 addr_tcmp1[15-16]           4           2      100.00 
+                                    addr_tcmp1[17]           3           2      100.00 
+                                    addr_tcmp1[18]           3           3      100.00 
+                                 addr_tcmp1[19-20]           4           2      100.00 
+                                    addr_tcmp1[21]           3           2      100.00 
+                                    addr_tcmp1[22]           3           3      100.00 
+                                 addr_tcmp1[23-24]           4           2      100.00 
+                                    addr_tcmp1[25]           3           3      100.00 
+                                    addr_tcmp1[26]           3           2      100.00 
+                                 addr_tcmp1[27-28]           4           2      100.00 
+                                    addr_tcmp1[29]           3           3      100.00 
+                                    addr_tcmp1[30]           3           2      100.00 
+                                    addr_tcmp1[31]           4           2      100.00 
+                                       addr_tcr[0]           7           7      100.00 
+                                       addr_tcr[1]           2           5      100.00 
+                                     addr_tcr[2-7]           0           0        0.00 
+                                       addr_tcr[8]           8           5      100.00 
+                                       addr_tcr[9]           2           3      100.00 
+                                      addr_tcr[10]           4           4      100.00 
+                                      addr_tcr[11]           2           3      100.00 
+                                   addr_tcr[12-31]           0           0        0.00 
+                                      addr_tdr0[0]           7          11      100.00 
+                                      addr_tdr0[1]           9          11      100.00 
+                                    addr_tdr0[2-3]           7           8      100.00 
+                                      addr_tdr0[4]           7          11      100.00 
+                                      addr_tdr0[5]           7           9      100.00 
+                                      addr_tdr0[6]           6           7      100.00 
+                                      addr_tdr0[7]           5           6      100.00 
+                                      addr_tdr0[8]           6          10      100.00 
+                                      addr_tdr0[9]           8          10      100.00 
+                                     addr_tdr0[10]           5           6      100.00 
+                                     addr_tdr0[11]           4           5      100.00 
+                                     addr_tdr0[12]           5           9      100.00 
+                                     addr_tdr0[13]           7           9      100.00 
+                                     addr_tdr0[14]           5           6      100.00 
+                                     addr_tdr0[15]           4           5      100.00 
+                                     addr_tdr0[16]           5           9      100.00 
+                                     addr_tdr0[17]           7           9      100.00 
+                                     addr_tdr0[18]           5           6      100.00 
+                                     addr_tdr0[19]           4           5      100.00 
+                                     addr_tdr0[20]           5           9      100.00 
+                                     addr_tdr0[21]           7           9      100.00 
+                                     addr_tdr0[22]           5           6      100.00 
+                                     addr_tdr0[23]           4           5      100.00 
+                                     addr_tdr0[24]           4           8      100.00 
+                                     addr_tdr0[25]           7           9      100.00 
+                                     addr_tdr0[26]           5           6      100.00 
+                                     addr_tdr0[27]           4           5      100.00 
+                                     addr_tdr0[28]           4           8      100.00 
+                                     addr_tdr0[29]           7           9      100.00 
+                                     addr_tdr0[30]           5           6      100.00 
+                                     addr_tdr0[31]           4           5      100.00 
+                                      addr_tdr1[0]           5           5      100.00 
+                                      addr_tdr1[1]           4           4      100.00 
+                                      addr_tdr1[2]           4           6      100.00 
+                                      addr_tdr1[3]           3           3      100.00 
+                                    addr_tdr1[4-5]           4           4      100.00 
+                                      addr_tdr1[6]           4           6      100.00 
+                                      addr_tdr1[7]           3           3      100.00 
+                                      addr_tdr1[8]           4           4      100.00 
+                                      addr_tdr1[9]           5           5      100.00 
+                                     addr_tdr1[10]           4           6      100.00 
+                                     addr_tdr1[11]           3           3      100.00 
+                                     addr_tdr1[12]           4           4      100.00 
+                                     addr_tdr1[13]           5           5      100.00 
+                                     addr_tdr1[14]           4           6      100.00 
+                                     addr_tdr1[15]           3           3      100.00 
+                                     addr_tdr1[16]           4           4      100.00 
+                                     addr_tdr1[17]           5           5      100.00 
+                                     addr_tdr1[18]           4           6      100.00 
+                                     addr_tdr1[19]           3           3      100.00 
+                                     addr_tdr1[20]           4           4      100.00 
+                                     addr_tdr1[21]           5           5      100.00 
+                                     addr_tdr1[22]           4           6      100.00 
+                                  addr_tdr1[23-24]           3           3      100.00 
+                                     addr_tdr1[25]           5           5      100.00 
+                                     addr_tdr1[26]           4           6      100.00 
+                                  addr_tdr1[27-28]           3           3      100.00 
+                                     addr_tdr1[29]           5           5      100.00 
+                                     addr_tdr1[30]           4           6      100.00 
+                                     addr_tdr1[31]           3           3      100.00 
+                                     addr_thcsr[0]           4           4      100.00 
+                                     addr_thcsr[1]           2           2      100.00 
+                                  addr_thcsr[2-31]           0           0        0.00 
+                                      addr_tier[0]           3           4      100.00 
+                                   addr_tier[1-31]           0           0        0.00 
+                                      addr_tisr[0]           3           4      100.00 
+                                   addr_tisr[1-31]           0           0        0.00 
+                                            cnt_en           7           7      100.00 
+                                            div_en           2           5      100.00 
+                                        div_val[0]           8           5      100.00 
+                                        div_val[1]           2           3      100.00 
+                                        div_val[2]           4           4      100.00 
+                                        div_val[3]           2           3      100.00 
+                                          halt_ack           2           2      100.00 
+                                          halt_req           4           4      100.00 
+                                           int_clr           4           4      100.00 
+                                            int_en           3           4      100.00 
+                                           int_set           4           4      100.00 
+                                            int_st           3           4      100.00 
+                                        int_st_pre           3           4      100.00 
+                                           pslverr           2           2      100.00 
+                                        pstrb[0-3]           1           1      100.00 
+                                             rd_en          13          13      100.00 
+                                          rdata[0]          12          12      100.00 
+                                          rdata[1]          11          11      100.00 
+                                          rdata[2]           8           8      100.00 
+                                          rdata[3]           6           6      100.00 
+                                          rdata[4]          10          10      100.00 
+                                          rdata[5]           8           8      100.00 
+                                          rdata[6]           7           7      100.00 
+                                          rdata[7]           5           5      100.00 
+                                          rdata[8]          12          12      100.00 
+                                          rdata[9]          10          10      100.00 
+                                      rdata[10-11]           7           7      100.00 
+                                      rdata[12-13]           9           9      100.00 
+                                         rdata[14]           7           7      100.00 
+                                         rdata[15]           6           6      100.00 
+                                      rdata[16-17]           9           9      100.00 
+                                         rdata[18]           7           7      100.00 
+                                         rdata[19]           6           6      100.00 
+                                      rdata[20-21]           9           9      100.00 
+                                         rdata[22]           7           7      100.00 
+                                         rdata[23]           6           6      100.00 
+                                      rdata[24-25]           9           9      100.00 
+                                         rdata[26]           7           7      100.00 
+                                         rdata[27]           6           6      100.00 
+                                      rdata[28-29]           9           9      100.00 
+                                         rdata[30]           7           7      100.00 
+                                         rdata[31]           6           6      100.00 
+                                           sys_clk          13          13      100.00 
+                                         sys_rst_n           2          13      100.00 
+                                          tcmp0[0]           2           1      100.00 
+                                          tcmp0[1]           3           2      100.00 
+                                          tcmp0[2]           2           2      100.00 
+                                          tcmp0[3]           3           2      100.00 
+                                          tcmp0[4]           2           1      100.00 
+                                          tcmp0[5]           3           1      100.00 
+                                          tcmp0[6]           2           2      100.00 
+                                          tcmp0[7]           3           1      100.00 
+                                          tcmp0[8]           3           3      100.00 
+                                          tcmp0[9]           4           2      100.00 
+                                         tcmp0[10]           3           3      100.00 
+                                         tcmp0[11]           4           2      100.00 
+                                         tcmp0[12]           3           3      100.00 
+                                         tcmp0[13]           4           2      100.00 
+                                         tcmp0[14]           3           3      100.00 
+                                         tcmp0[15]           4           2      100.00 
+                                         tcmp0[16]           3           2      100.00 
+                                         tcmp0[17]           4           2      100.00 
+                                         tcmp0[18]           3           3      100.00 
+                                         tcmp0[19]           4           2      100.00 
+                                         tcmp0[20]           3           2      100.00 
+                                         tcmp0[21]           4           2      100.00 
+                                         tcmp0[22]           3           3      100.00 
+                                         tcmp0[23]           4           2      100.00 
+                                         tcmp0[24]           3           2      100.00 
+                                         tcmp0[25]           4           3      100.00 
+                                         tcmp0[26]           3           2      100.00 
+                                         tcmp0[27]           4           2      100.00 
+                                         tcmp0[28]           3           2      100.00 
+                                         tcmp0[29]           4           3      100.00 
+                                         tcmp0[30]           3           2      100.00 
+                                         tcmp0[31]           4           2      100.00 
+                                      tcmp0_wr_sel           4           4      100.00 
+                                          tcmp1[0]           4           2      100.00 
+                                          tcmp1[1]           3           2      100.00 
+                                          tcmp1[2]           3           3      100.00 
+                                        tcmp1[3-4]           4           2      100.00 
+                                          tcmp1[5]           3           2      100.00 
+                                          tcmp1[6]           3           3      100.00 
+                                          tcmp1[7]           4           2      100.00 
+                                          tcmp1[8]           4           3      100.00 
+                                          tcmp1[9]           3           2      100.00 
+                                         tcmp1[10]           3           3      100.00 
+                                         tcmp1[11]           4           2      100.00 
+                                         tcmp1[12]           4           3      100.00 
+                                         tcmp1[13]           3           2      100.00 
+                                         tcmp1[14]           3           3      100.00 
+                                      tcmp1[15-16]           4           2      100.00 
+                                         tcmp1[17]           3           2      100.00 
+                                         tcmp1[18]           3           3      100.00 
+                                      tcmp1[19-20]           4           2      100.00 
+                                         tcmp1[21]           3           2      100.00 
+                                         tcmp1[22]           3           3      100.00 
+                                      tcmp1[23-24]           4           2      100.00 
+                                         tcmp1[25]           3           3      100.00 
+                                         tcmp1[26]           3           2      100.00 
+                                      tcmp1[27-28]           4           2      100.00 
+                                         tcmp1[29]           3           3      100.00 
+                                         tcmp1[30]           3           2      100.00 
+                                         tcmp1[31]           4           2      100.00 
+                                      tcmp1_wr_sel           4           4      100.00 
+                                        tcr_wr_sel           8           8      100.00 
+                                           tdr0[0]           7          11      100.00 
+                                           tdr0[1]           9          11      100.00 
+                                         tdr0[2-3]           7           8      100.00 
+                                           tdr0[4]           7          11      100.00 
+                                           tdr0[5]           7           9      100.00 
+                                           tdr0[6]           6           7      100.00 
+                                           tdr0[7]           5           6      100.00 
+                                           tdr0[8]           6          10      100.00 
+                                           tdr0[9]           8          10      100.00 
+                                          tdr0[10]           5           6      100.00 
+                                          tdr0[11]           4           5      100.00 
+                                          tdr0[12]           5           9      100.00 
+                                          tdr0[13]           7           9      100.00 
+                                          tdr0[14]           5           6      100.00 
+                                          tdr0[15]           4           5      100.00 
+                                          tdr0[16]           5           9      100.00 
+                                          tdr0[17]           7           9      100.00 
+                                          tdr0[18]           5           6      100.00 
+                                          tdr0[19]           4           5      100.00 
+                                          tdr0[20]           5           9      100.00 
+                                          tdr0[21]           7           9      100.00 
+                                          tdr0[22]           5           6      100.00 
+                                          tdr0[23]           4           5      100.00 
+                                          tdr0[24]           4           8      100.00 
+                                          tdr0[25]           7           9      100.00 
+                                          tdr0[26]           5           6      100.00 
+                                          tdr0[27]           4           5      100.00 
+                                          tdr0[28]           4           8      100.00 
+                                          tdr0[29]           7           9      100.00 
+                                          tdr0[30]           5           6      100.00 
+                                          tdr0[31]           4           5      100.00 
+                                       tdr0_wr_sel          10          10      100.00 
+                                           tdr1[0]           5           5      100.00 
+                                           tdr1[1]           4           4      100.00 
+                                           tdr1[2]           4           6      100.00 
+                                           tdr1[3]           3           3      100.00 
+                                         tdr1[4-5]           4           4      100.00 
+                                           tdr1[6]           4           6      100.00 
+                                           tdr1[7]           3           3      100.00 
+                                           tdr1[8]           4           4      100.00 
+                                           tdr1[9]           5           5      100.00 
+                                          tdr1[10]           4           6      100.00 
+                                          tdr1[11]           3           3      100.00 
+                                          tdr1[12]           4           4      100.00 
+                                          tdr1[13]           5           5      100.00 
+                                          tdr1[14]           4           6      100.00 
+                                          tdr1[15]           3           3      100.00 
+                                          tdr1[16]           4           4      100.00 
+                                          tdr1[17]           5           5      100.00 
+                                          tdr1[18]           4           6      100.00 
+                                          tdr1[19]           3           3      100.00 
+                                          tdr1[20]           4           4      100.00 
+                                          tdr1[21]           5           5      100.00 
+                                          tdr1[22]           4           6      100.00 
+                                       tdr1[23-24]           3           3      100.00 
+                                          tdr1[25]           5           5      100.00 
+                                          tdr1[26]           4           6      100.00 
+                                       tdr1[27-28]           3           3      100.00 
+                                          tdr1[29]           5           5      100.00 
+                                          tdr1[30]           4           6      100.00 
+                                          tdr1[31]           3           3      100.00 
+                                       tdr1_wr_sel           8           8      100.00 
+                                      thcsr_wr_sel           5           5      100.00 
+                                       tier_wr_sel           4           4      100.00 
+                                           tim_int           3           3      100.00 
+                                          timer_en           7           7      100.00 
+                                        timer_en_d           7           7      100.00 
+                                     timer_en_fall           6           6      100.00 
+                                       tisr_wr_sel           4           4      100.00 
+                                      tmp_rdata[0]          12          12      100.00 
+                                      tmp_rdata[1]          11          11      100.00 
+                                      tmp_rdata[2]           8           8      100.00 
+                                      tmp_rdata[3]           6           6      100.00 
+                                      tmp_rdata[4]          10          10      100.00 
+                                      tmp_rdata[5]           8           8      100.00 
+                                      tmp_rdata[6]           7           7      100.00 
+                                      tmp_rdata[7]           5           5      100.00 
+                                      tmp_rdata[8]          12          12      100.00 
+                                      tmp_rdata[9]          10          10      100.00 
+                                  tmp_rdata[10-11]           7           7      100.00 
+                                  tmp_rdata[12-13]           9           9      100.00 
+                                     tmp_rdata[14]           7           7      100.00 
+                                     tmp_rdata[15]           6           6      100.00 
+                                  tmp_rdata[16-17]           9           9      100.00 
+                                     tmp_rdata[18]           7           7      100.00 
+                                     tmp_rdata[19]           6           6      100.00 
+                                  tmp_rdata[20-21]           9           9      100.00 
+                                     tmp_rdata[22]           7           7      100.00 
+                                     tmp_rdata[23]           6           6      100.00 
+                                  tmp_rdata[24-25]           9           9      100.00 
+                                     tmp_rdata[26]           7           7      100.00 
+                                     tmp_rdata[27]           6           6      100.00 
+                                  tmp_rdata[28-29]           9           9      100.00 
+                                     tmp_rdata[30]           7           7      100.00 
+                                     tmp_rdata[31]           6           6      100.00 
+                                    tmp_tcr_wr_sel           8           8      100.00 
+                                        wdata[0-1]          12          12      100.00 
+                                          wdata[2]          11          11      100.00 
+                                          wdata[3]           9           9      100.00 
+                                        wdata[4-6]          11          11      100.00 
+                                          wdata[7]           9           9      100.00 
+                                       wdata[8-10]          11          11      100.00 
+                                         wdata[11]           9           9      100.00 
+                                      wdata[12-14]          10          10      100.00 
+                                         wdata[15]           8           8      100.00 
+                                      wdata[16-18]          10          10      100.00 
+                                         wdata[19]           8           8      100.00 
+                                      wdata[20-22]          10          10      100.00 
+                                         wdata[23]           8           8      100.00 
+                                      wdata[24-26]          10          10      100.00 
+                                         wdata[27]           8           8      100.00 
+                                      wdata[28-30]          10          10      100.00 
+                                         wdata[31]           8           8      100.00 
+                                             wr_en          12          12      100.00 
+
+Total Node Count     =        527 
+Toggled Node Count   =        409 
+Untoggled Node Count =        118 
+
+Toggle Coverage      =      77.60% (818 of 1054 bins)
+
+=================================================================================
+=== Instance: /test_bench/u_timer/u2
+=== Design Unit: work.counter_ctrl
+=================================================================================
+Branch Coverage:
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Branches                        10         9         1    90.00%
+
+================================Branch Details================================
+
+Branch Coverage for instance /test_bench/u_timer/u2
+
+    Line         Item                      Count     Source 
+    ----         ----                      -----     ------ 
+  File ../rtl/counter_ctrl.v
+------------------------------------IF Branch------------------------------------
+    33                                   1022204     Count coming in to IF
+    33              1                    1022204     										if (cond_cnt) begin
+                                         ***0***     All False Count
+Branch totals: 1 hit of 2 branches = 50.00%
+
+
+Expression Coverage:
+    Enabled Coverage              Bins   Covered    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Expressions                     14        13         1    92.85%
+
+================================Expression Details================================
+
+Expression Coverage for instance /test_bench/u_timer/u2 --
+
+  File ../rtl/counter_ctrl.v
+
+
+
+-----------Focused Expression View (Bimodal)------------
+Line       41 Item    1  (~cond_halt & (((~div_en & timer_en) | ((((div_val != 0) & div_en) & timer_en) & (int_cnt == limit))) | (((div_val == 0) & div_en) & timer_en)))
+Expression totals: 5 of 6 input terms covered = 83.33%
+
+            Input Term   Covered  Reason for no coverage                  Hint
+           -----------  --------  --------------------------------------  --------------
+        (div_val != 0)         N  '_1' hit but '_0' is not hit           Hit '_0' for output ->0
+
+    Rows:   Hits(->0)   Hits(->1)  FEC Target              Non-masking condition(s)                                                                                                                                                                                                                                                                                                                                                                 
+
+---------  ----------  ----------  --------------------    -------------------------                                                                                                                                                                                                                                                                                                                                                                
+ Row   1:           0           7  cond_halt_0             (((~div_en & timer_en) | ((((div_val != 0) & div_en) & timer_en) & (int_cnt == limit))) | (((div_val == 0) & div_en) & timer_en))                                                                                                                                                                                                                                                        
+ Row   2:           2           0  cond_halt_1             (((~div_en & timer_en) | ((((div_val != 0) & div_en) & timer_en) & (int_cnt == limit))) | (((div_val == 0) & div_en) & timer_en))                                                                                                                                                                                                                                                        
+ Row   3:           0           7  div_en_0                (~cond_halt && timer_en)                                                                                                                                                                                                                                                                                                                                                                 
+ Row   4:           3           2  div_en_1                (~cond_halt && ~(((div_val == 0) & div_en) & timer_en) && ~((((div_val != 0) & div_en) & timer_en) & (int_cnt == limit)) && timer_en), (~cond_halt && ~(((div_val == 0) & div_en) & timer_en) && (int_cnt == limit) && timer_en && (div_val != 0)), (~cond_halt && ~((~div_en & timer_en) | ((((div_val != 0) & div_en) & timer_en) & (int_cnt == limit))) && timer_en && (div_val == 0))
+ Row   5:          13           0  timer_en_0              (~cond_halt && ~div_en), (~cond_halt && (int_cnt == limit) && ((div_val != 0) & div_en)), (~cond_halt && ((div_val == 0) & div_en))                                                                                                                                                                                                                                                      
+ Row   6:           0           7  timer_en_1              (~cond_halt && ~div_en), (~cond_halt && ~(((div_val == 0) & div_en) & timer_en) && ~(~div_en & timer_en) && (int_cnt == limit) && ((div_val != 0) & div_en)), (~cond_halt && ~((~div_en & timer_en) | ((((div_val != 0) & div_en) & timer_en) & (int_cnt == limit))) && ((div_val == 0) & div_en))                                                                                       
+ Row   7:           0           0  (div_val != 0)_0        (~cond_halt && ~(((div_val == 0) & div_en) & timer_en) && (int_cnt == limit) && timer_en && div_en)                                                                                                                                                                                                                                                                                      
+ Row   8:           0           2  (div_val != 0)_1        (~cond_halt && ~(((div_val == 0) & div_en) & timer_en) && (int_cnt == limit) && timer_en && div_en)                                                                                                                                                                                                                                                                                      
+ Row   9:           3           0  (int_cnt == limit)_0    (~cond_halt && ~(((div_val == 0) & div_en) & timer_en) && ~(~div_en & timer_en) && (((div_val != 0) & div_en) & timer_en))                                                                                                                                                                                                                                                               
+Row   10:           0           2  (int_cnt == limit)_1    (~cond_halt && ~(((div_val == 0) & div_en) & timer_en) && ~(~div_en & timer_en) && (((div_val != 0) & div_en) & timer_en))                                                                                                                                                                                                                                                               
+Row   11:           3           0  (div_val == 0)_0        (~cond_halt && ~((~div_en & timer_en) | ((((div_val != 0) & div_en) & timer_en) & (int_cnt == limit))) && timer_en && div_en)                                                                                                                                                                                                                                                            
+Row   12:           0           2  (div_val == 0)_1        (~cond_halt && ~((~div_en & timer_en) | ((((div_val != 0) & div_en) & timer_en) & (int_cnt == limit))) && timer_en && div_en)                                                                                                                                                                                                                                                            
+
+
+Toggle Coverage:
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Toggles                         62        61         1    98.38%
+
+================================Toggle Details================================
+
+Toggle Coverage for instance /test_bench/u_timer/u2 --
+
+                                              Node      1H->0L      0L->1H  "Coverage"
+                                              ---------------------------------------
+                                            cnt_en           7           7      100.00 
+                                           cnt_rst           3           3      100.00 
+                                          cond_cnt           3           3      100.00 
+                                         cond_halt           2           2      100.00 
+                                          dbg_mode           0           2       50.00 
+                                            div_en           2           5      100.00 
+                                        div_val[0]           8           5      100.00 
+                                        div_val[1]           2           3      100.00 
+                                        div_val[2]           4           4      100.00 
+                                        div_val[3]           2           3      100.00 
+                                          halt_ack           2           2      100.00 
+                                          halt_req           4           4      100.00 
+                                      int_cnt[0-4]           3           3      100.00 
+                                      int_cnt[5-7]           2           2      100.00 
+                                          limit[0]           7           5      100.00 
+                                          limit[1]           4           6      100.00 
+                                        limit[2-4]           4           5      100.00 
+                                        limit[5-7]           2           3      100.00 
+                                           sys_clk          13          13      100.00 
+                                         sys_rst_n           2          13      100.00 
+                                          timer_en           7           7      100.00 
+
+Total Node Count     =         31 
+Toggled Node Count   =         30 
+Untoggled Node Count =          1 
+
+Toggle Coverage      =      98.38% (61 of 62 bins)
+
+=================================================================================
+=== Instance: /test_bench/u_timer
+=== Design Unit: work.timer_top
+=================================================================================
+Toggle Coverage:
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Toggles                        268       267         1    99.62%
+
+================================Toggle Details================================
+
+Toggle Coverage for instance /test_bench/u_timer --
+
+                                              Node      1H->0L      0L->1H  "Coverage"
+                                              ---------------------------------------
+                                            cnt_en           7           7      100.00 
+                                          dbg_mode           0           2       50.00 
+                                            div_en           2           5      100.00 
+                                        div_val[0]           8           5      100.00 
+                                        div_val[1]           2           3      100.00 
+                                        div_val[2]           4           4      100.00 
+                                        div_val[3]           2           3      100.00 
+                                          halt_ack           2           2      100.00 
+                                          halt_req           4           4      100.00 
+                                            int_en           3           4      100.00 
+                                            int_st           3           4      100.00 
+                                             rd_en          13          13      100.00 
+                                          rdata[0]          12          12      100.00 
+                                          rdata[1]          11          11      100.00 
+                                          rdata[2]           8           8      100.00 
+                                          rdata[3]           6           6      100.00 
+                                          rdata[4]          10          10      100.00 
+                                          rdata[5]           8           8      100.00 
+                                          rdata[6]           7           7      100.00 
+                                          rdata[7]           5           5      100.00 
+                                          rdata[8]          12          12      100.00 
+                                          rdata[9]          10          10      100.00 
+                                      rdata[10-11]           7           7      100.00 
+                                      rdata[12-13]           9           9      100.00 
+                                         rdata[14]           7           7      100.00 
+                                         rdata[15]           6           6      100.00 
+                                      rdata[16-17]           9           9      100.00 
+                                         rdata[18]           7           7      100.00 
+                                         rdata[19]           6           6      100.00 
+                                      rdata[20-21]           9           9      100.00 
+                                         rdata[22]           7           7      100.00 
+                                         rdata[23]           6           6      100.00 
+                                      rdata[24-25]           9           9      100.00 
+                                         rdata[26]           7           7      100.00 
+                                         rdata[27]           6           6      100.00 
+                                      rdata[28-29]           9           9      100.00 
+                                         rdata[30]           7           7      100.00 
+                                         rdata[31]           6           6      100.00 
+                                           sys_clk          13          13      100.00 
+                                         sys_rst_n           2          13      100.00 
+                                           tim_int           3           3      100.00 
+                                    tim_paddr[0-1]           1           1      100.00 
+                                      tim_paddr[2]          12          12      100.00 
+                                      tim_paddr[3]          10          10      100.00 
+                                      tim_paddr[4]           8           8      100.00 
+                                   tim_paddr[5-11]           1           1      100.00 
+                                       tim_penable          13          13      100.00 
+                                     tim_prdata[0]          12          12      100.00 
+                                     tim_prdata[1]          11          11      100.00 
+                                     tim_prdata[2]           8           8      100.00 
+                                     tim_prdata[3]           6           6      100.00 
+                                     tim_prdata[4]          10          10      100.00 
+                                     tim_prdata[5]           8           8      100.00 
+                                     tim_prdata[6]           7           7      100.00 
+                                     tim_prdata[7]           5           5      100.00 
+                                     tim_prdata[8]          12          12      100.00 
+                                     tim_prdata[9]          10          10      100.00 
+                                 tim_prdata[10-11]           7           7      100.00 
+                                 tim_prdata[12-13]           9           9      100.00 
+                                    tim_prdata[14]           7           7      100.00 
+                                    tim_prdata[15]           6           6      100.00 
+                                 tim_prdata[16-17]           9           9      100.00 
+                                    tim_prdata[18]           7           7      100.00 
+                                    tim_prdata[19]           6           6      100.00 
+                                 tim_prdata[20-21]           9           9      100.00 
+                                    tim_prdata[22]           7           7      100.00 
+                                    tim_prdata[23]           6           6      100.00 
+                                 tim_prdata[24-25]           9           9      100.00 
+                                    tim_prdata[26]           7           7      100.00 
+                                    tim_prdata[27]           6           6      100.00 
+                                 tim_prdata[28-29]           9           9      100.00 
+                                    tim_prdata[30]           7           7      100.00 
+                                    tim_prdata[31]           6           6      100.00 
+                                        tim_pready          13          13      100.00 
+                                          tim_psel          13          13      100.00 
+                                       tim_pslverr           2           2      100.00 
+                                    tim_pstrb[0-3]           1           1      100.00 
+                                   tim_pwdata[0-1]          12          12      100.00 
+                                     tim_pwdata[2]          11          11      100.00 
+                                     tim_pwdata[3]           9           9      100.00 
+                                   tim_pwdata[4-6]          11          11      100.00 
+                                     tim_pwdata[7]           9           9      100.00 
+                                  tim_pwdata[8-10]          11          11      100.00 
+                                    tim_pwdata[11]           9           9      100.00 
+                                 tim_pwdata[12-14]          10          10      100.00 
+                                    tim_pwdata[15]           8           8      100.00 
+                                 tim_pwdata[16-18]          10          10      100.00 
+                                    tim_pwdata[19]           8           8      100.00 
+                                 tim_pwdata[20-22]          10          10      100.00 
+                                    tim_pwdata[23]           8           8      100.00 
+                                 tim_pwdata[24-26]          10          10      100.00 
+                                    tim_pwdata[27]           8           8      100.00 
+                                 tim_pwdata[28-30]          10          10      100.00 
+                                    tim_pwdata[31]           8           8      100.00 
+                                        tim_pwrite          12          12      100.00 
+                                          timer_en           7           7      100.00 
+                                             wr_en          12          12      100.00 
+
+Total Node Count     =        134 
+Toggled Node Count   =        133 
+Untoggled Node Count =          1 
+
+Toggle Coverage      =      99.62% (267 of 268 bins)
+
+=================================================================================
+=== Instance: /test_bench/u_tb_cnt
+=== Design Unit: work.mod_golden_cnt
+=================================================================================
+Expression Coverage:
+    Enabled Coverage              Bins   Covered    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Expressions                     21        15         6    71.42%
+
+================================Expression Details================================
+
+Expression Coverage for instance /test_bench/u_tb_cnt --
+
+  File ../tb/test_bench.v
+----------------Focused Expression View-----------------
+Line       448 Item    1  ((((psel & penable) & pwrite) & (paddr == 0)) & pwdata[0])
+Expression totals: 3 of 5 input terms covered = 60.00%
+
+    Input Term   Covered  Reason for no coverage   Hint
+   -----------  --------  -----------------------  --------------
+          psel         N  '_0' not hit             Hit '_0'
+        pwrite         N  '_0' not hit             Hit '_0'
+
+     Rows:       Hits  FEC Target            Non-masking condition(s)      
+ ---------  ---------  --------------------  -------------------------     
+  Row   1:    ***0***  psel_0                (pwdata[0] && (paddr == 0) && pwrite && penable)
+  Row   2:          7  psel_1                (pwdata[0] && (paddr == 0) && pwrite && penable)
+  Row   3:          7  penable_0             (pwdata[0] && (paddr == 0) && pwrite && psel)
+  Row   4:          7  penable_1             (pwdata[0] && (paddr == 0) && pwrite && psel)
+  Row   5:    ***0***  pwrite_0              (pwdata[0] && (paddr == 0) && (psel & penable))
+  Row   6:          7  pwrite_1              (pwdata[0] && (paddr == 0) && (psel & penable))
+  Row   7:         11  (paddr == 0)_0        (pwdata[0] && ((psel & penable) & pwrite))
+  Row   8:          7  (paddr == 0)_1        (pwdata[0] && ((psel & penable) & pwrite))
+  Row   9:          8  pwdata[0]_0           (((psel & penable) & pwrite) & (paddr == 0))
+ Row   10:          7  pwdata[0]_1           (((psel & penable) & pwrite) & (paddr == 0))
+
+----------------Focused Expression View-----------------
+Line       449 Item    1  ((((~pwdata[0] & psel) & penable) & pwrite) & (paddr == 0))
+Expression totals: 4 of 5 input terms covered = 80.00%
+
+    Input Term   Covered  Reason for no coverage   Hint
+   -----------  --------  -----------------------  --------------
+          psel         N  '_0' not hit             Hit '_0'
+
+     Rows:       Hits  FEC Target            Non-masking condition(s)      
+ ---------  ---------  --------------------  -------------------------     
+  Row   1:          8  pwdata[0]_0           ((paddr == 0) && pwrite && penable && psel)
+  Row   2:          7  pwdata[0]_1           ((paddr == 0) && pwrite && penable && psel)
+  Row   3:    ***0***  psel_0                ((paddr == 0) && pwrite && penable && ~pwdata[0])
+  Row   4:          8  psel_1                ((paddr == 0) && pwrite && penable && ~pwdata[0])
+  Row   5:          8  penable_0             ((paddr == 0) && pwrite && (~pwdata[0] & psel))
+  Row   6:          8  penable_1             ((paddr == 0) && pwrite && (~pwdata[0] & psel))
+  Row   7:          5  pwrite_0              ((paddr == 0) && ((~pwdata[0] & psel) & penable))
+  Row   8:          8  pwrite_1              ((paddr == 0) && ((~pwdata[0] & psel) & penable))
+  Row   9:          9  (paddr == 0)_0        (((~pwdata[0] & psel) & penable) & pwrite)
+ Row   10:          8  (paddr == 0)_1        (((~pwdata[0] & psel) & penable) & pwrite)
+
+----------------Focused Expression View-----------------
+Line       450 Item    1  (((((psel & penable) & pwrite) & (paddr == 28)) & pwdata[0]) & dbg_mode)
+Expression totals: 4 of 6 input terms covered = 66.66%
+
+     Input Term   Covered  Reason for no coverage   Hint
+    -----------  --------  -----------------------  --------------
+           psel         N  '_0' not hit             Hit '_0'
+         pwrite         N  '_0' not hit             Hit '_0'
+
+     Rows:       Hits  FEC Target            Non-masking condition(s)      
+ ---------  ---------  --------------------  -------------------------     
+  Row   1:    ***0***  psel_0                (dbg_mode && pwdata[0] && (paddr == 28) && pwrite && penable)
+  Row   2:          2  psel_1                (dbg_mode && pwdata[0] && (paddr == 28) && pwrite && penable)
+  Row   3:          2  penable_0             (dbg_mode && pwdata[0] && (paddr == 28) && pwrite && psel)
+  Row   4:          2  penable_1             (dbg_mode && pwdata[0] && (paddr == 28) && pwrite && psel)
+  Row   5:    ***0***  pwrite_0              (dbg_mode && pwdata[0] && (paddr == 28) && (psel & penable))
+  Row   6:          2  pwrite_1              (dbg_mode && pwdata[0] && (paddr == 28) && (psel & penable))
+  Row   7:          2  (paddr == 28)_0       (dbg_mode && pwdata[0] && ((psel & penable) & pwrite))
+  Row   8:          2  (paddr == 28)_1       (dbg_mode && pwdata[0] && ((psel & penable) & pwrite))
+  Row   9:          2  pwdata[0]_0           (dbg_mode && (((psel & penable) & pwrite) & (paddr == 28)))
+ Row   10:          2  pwdata[0]_1           (dbg_mode && (((psel & penable) & pwrite) & (paddr == 28)))
+ Row   11:          3  dbg_mode_0            ((((psel & penable) & pwrite) & (paddr == 28)) & pwdata[0])
+ Row   12:          2  dbg_mode_1            ((((psel & penable) & pwrite) & (paddr == 28)) & pwdata[0])
+
+----------------Focused Expression View-----------------
+Line       451 Item    1  ((((~pwdata[0] & psel) & penable) & pwrite) & (paddr == 28))
+Expression totals: 4 of 5 input terms covered = 80.00%
+
+     Input Term   Covered  Reason for no coverage   Hint
+    -----------  --------  -----------------------  --------------
+           psel         N  '_0' not hit             Hit '_0'
+
+     Rows:       Hits  FEC Target            Non-masking condition(s)      
+ ---------  ---------  --------------------  -------------------------     
+  Row   1:          5  pwdata[0]_0           ((paddr == 28) && pwrite && penable && psel)
+  Row   2:          4  pwdata[0]_1           ((paddr == 28) && pwrite && penable && psel)
+  Row   3:    ***0***  psel_0                ((paddr == 28) && pwrite && penable && ~pwdata[0])
+  Row   4:          5  psel_1                ((paddr == 28) && pwrite && penable && ~pwdata[0])
+  Row   5:          5  penable_0             ((paddr == 28) && pwrite && (~pwdata[0] & psel))
+  Row   6:          5  penable_1             ((paddr == 28) && pwrite && (~pwdata[0] & psel))
+  Row   7:          5  pwrite_0              ((paddr == 28) && ((~pwdata[0] & psel) & penable))
+  Row   8:          5  pwrite_1              ((paddr == 28) && ((~pwdata[0] & psel) & penable))
+  Row   9:         10  (paddr == 28)_0       (((~pwdata[0] & psel) & penable) & pwrite)
+ Row   10:          5  (paddr == 28)_1       (((~pwdata[0] & psel) & penable) & pwrite)
+
+
+Toggle Coverage:
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Toggles                        502       501         1    99.80%
+
+================================Toggle Details================================
+
+Toggle Coverage for instance /test_bench/u_tb_cnt --
+
+                                              Node      1H->0L      0L->1H  "Coverage"
+                                              ---------------------------------------
+                                               clk          13          13      100.00 
+                                          cnt[0-2]           7           7      100.00 
+                                            cnt[3]           6           7      100.00 
+                                            cnt[4]           6           6      100.00 
+                                            cnt[5]           4           5      100.00 
+                                          cnt[6-8]           4           4      100.00 
+                                            cnt[9]           3           4      100.00 
+                                           cnt[10]           2           3      100.00 
+                                        cnt[11-40]           2           2      100.00 
+                                        cnt[41-63]           1           1      100.00 
+                                        cnt_cfg[0]           1           1      100.00 
+                                     cnt_cfg[1-40]           2           2      100.00 
+                                    cnt_cfg[41-63]           1           1      100.00 
+                                        cnt_cfg_en           3           3      100.00 
+                                     cnt_next[0-2]           7           7      100.00 
+                                       cnt_next[3]           6           7      100.00 
+                                       cnt_next[4]           6           6      100.00 
+                                       cnt_next[5]           4           5      100.00 
+                                     cnt_next[6-8]           4           4      100.00 
+                                       cnt_next[9]           3           4      100.00 
+                                      cnt_next[10]           2           3      100.00 
+                                   cnt_next[11-40]           2           2      100.00 
+                                   cnt_next[41-63]           1           1      100.00 
+                                          dbg_mode           0           2       50.00 
+                                              halt           2           2      100.00 
+                                           halt_1d           2           2      100.00 
+                                       halt_wr_clr           5           5      100.00 
+                                       halt_wr_set           2           2      100.00 
+                                        paddr[0-1]           1           1      100.00 
+                                          paddr[2]          12          12      100.00 
+                                          paddr[3]          10          10      100.00 
+                                          paddr[4]           8           8      100.00 
+                                       paddr[5-11]           1           1      100.00 
+                                           penable          13          13      100.00 
+                                              psel          13          13      100.00 
+                                       pwdata[0-1]          12          12      100.00 
+                                         pwdata[2]          11          11      100.00 
+                                         pwdata[3]           9           9      100.00 
+                                       pwdata[4-6]          11          11      100.00 
+                                         pwdata[7]           9           9      100.00 
+                                      pwdata[8-10]          11          11      100.00 
+                                        pwdata[11]           9           9      100.00 
+                                     pwdata[12-14]          10          10      100.00 
+                                        pwdata[15]           8           8      100.00 
+                                     pwdata[16-18]          10          10      100.00 
+                                        pwdata[19]           8           8      100.00 
+                                     pwdata[20-22]          10          10      100.00 
+                                        pwdata[23]           8           8      100.00 
+                                     pwdata[24-26]          10          10      100.00 
+                                        pwdata[27]           8           8      100.00 
+                                     pwdata[28-30]          10          10      100.00 
+                                        pwdata[31]           8           8      100.00 
+                                            pwrite          12          12      100.00 
+                                             rst_n           2          13      100.00 
+                                            tim_en           7           7      100.00 
+                                         tim_en_1d           7           7      100.00 
+                                     tim_en_wr_clr           8           8      100.00 
+                                     tim_en_wr_set           7           7      100.00 
+
+Total Node Count     =        251 
+Toggled Node Count   =        250 
+Untoggled Node Count =          1 
+
+Toggle Coverage      =      99.80% (501 of 502 bins)
+
+=================================================================================
+=== Instance: /test_bench
+=== Design Unit: work.test_bench
+=================================================================================
+Branch Coverage:
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Branches                       124        63        61    50.80%
+
+================================Branch Details================================
+
+Branch Coverage for instance /test_bench
+
+    Line         Item                      Count     Source 
+    ----         ----                      -----     ------ 
+  File ../tb/test_bench.v
+------------------------------------IF Branch------------------------------------
+    158                                    10381     Count coming in to IF
+    158             1                    ***0***                     if( pready == 1) begin
+                                           10381     All False Count
+Branch totals: 1 hit of 2 branches = 50.00%
+
+------------------------------------IF Branch------------------------------------
+    168                                       13     Count coming in to IF
+    168             1                         13                     if( pslverr_exp ) begin
+    170             1                    ***0***                     end else begin
+Branch totals: 1 hit of 2 branches = 50.00%
+
+------------------------------------IF Branch------------------------------------
+    209                                     4294     Count coming in to IF
+    209             1                    ***0***                     if( pready == 1) begin
+                                            4294     All False Count
+Branch totals: 1 hit of 2 branches = 50.00%
+
+------------------------------------IF Branch------------------------------------
+    219                                     4296     Count coming in to IF
+    219             1                    ***0***                 if( pslverr && !pslverr_exp ) begin
+                                            4296     All False Count
+Branch totals: 1 hit of 2 branches = 50.00%
+
+------------------------------------IF Branch------------------------------------
+    220                                  ***0***     Count coming in to IF
+    220             1                    ***0***                     if( pslverr_exp ) begin
+    222             1                    ***0***                     end else begin
+Branch totals: 0 hits of 2 branches = 0.00%
+
+------------------------------------IF Branch------------------------------------
+    262                                       52     Count coming in to IF
+    262             1                    ***0***                 if( apb_err_penable || apb_err_psel ) begin 
+    264             1                         52                 end else begin
+Branch totals: 1 hit of 2 branches = 50.00%
+
+------------------------------------IF Branch------------------------------------
+    266                                       52     Count coming in to IF
+    266             1                    ***0***                     if( pready == 1) begin
+                                              52     All False Count
+Branch totals: 1 hit of 2 branches = 50.00%
+
+------------------------------------IF Branch------------------------------------
+    275                                       52     Count coming in to IF
+    275             1                    ***0***                 if( pslverr ) begin
+                                              52     All False Count
+Branch totals: 1 hit of 2 branches = 50.00%
+
+------------------------------------IF Branch------------------------------------
+    276                                  ***0***     Count coming in to IF
+    276             1                    ***0***                     if( pslverr_exp ) begin
+    278             1                    ***0***                     end else begin
+Branch totals: 0 hits of 2 branches = 0.00%
+
+------------------------------------IF Branch------------------------------------
+    306                                      172     Count coming in to IF
+    306             1                    ***0***     		if( (in_data & mask) !== (exp_data & mask) ) begin
+    315             1                        172     		end else begin
+Branch totals: 1 hit of 2 branches = 50.00%
+
+------------------------------------IF Branch------------------------------------
+    360                                  ***0***     Count coming in to IF
+    360             1                    ***0***                     if( div_val == 0 || (div_val!=0 && (idx > 0) && (idx % (1 << div_val)) == 0)) 
+                                         ***0***     All False Count
+Branch totals: 0 hits of 2 branches = 0.00%
+
+------------------------------------IF Branch------------------------------------
+    401                                        2     Count coming in to IF
+    401             1                          2                 if( val )
+    403             1                    ***0***                 else
+Branch totals: 1 hit of 2 branches = 50.00%
+
+
+  File run_test.v
+------------------------------------IF Branch------------------------------------
+    18                                         8     Count coming in to IF
+    18              1                          1                 if( status == 0 ) begin
+    23              1                    ***0***                 test_bench.apb_rd( ADDR_TCR, task_rdata);
+Branch totals: 1 hit of 2 branches = 50.00%
+
+------------------------------------IF Branch------------------------------------
+    26                                         1     Count coming in to IF
+    26              1                          1             
+    31              1                    ***0***             test_bench.cmp_data( ADDR_TCR, task_rdata, 32'h800, 32'hffff_ffff);
+Branch totals: 1 hit of 2 branches = 50.00%
+
+------------------------------------IF Branch------------------------------------
+    34                                         1     Count coming in to IF
+    34              1                    ***0***             test_bench.apb_wr(ADDR_TCR, 1);
+    36              1                          1             test_bench.tsk_set_pslverr_exp(1);
+Branch totals: 1 hit of 2 branches = 50.00%
+
+------------------------------------IF Branch------------------------------------
+    36                                         1     Count coming in to IF
+    36              1                    ***0***             test_bench.tsk_set_pslverr_exp(1);
+    38              1                          1             test_bench.apb_wr(ADDR_TCR, 32'h103);
+Branch totals: 1 hit of 2 branches = 50.00%
+
+------------------------------------IF Branch------------------------------------
+    37                                         1     Count coming in to IF
+    37              1                          1     
+    42              1                    ***0***                 err = 1;
+Branch totals: 1 hit of 2 branches = 50.00%
+
+------------------------------------IF Branch------------------------------------
+    38                                         1     Count coming in to IF
+    38              1                    ***0***             test_bench.apb_wr(ADDR_TCR, 32'h103);
+    45              1                          1             test_bench.apb_rd( ADDR_TCR, task_rdata);
+Branch totals: 1 hit of 2 branches = 50.00%
+
+------------------------------------IF Branch------------------------------------
+    40                                         1     Count coming in to IF
+    40              1                    ***0***             if( status == 0 ) begin
+                                               1     All False Count
+Branch totals: 1 hit of 2 branches = 50.00%
+
+------------------------------------IF Branch------------------------------------
+    43                                         1     Count coming in to IF
+    43              1                    ***0***             end
+    45              1                          1             test_bench.apb_rd( ADDR_TCR, task_rdata);
+Branch totals: 1 hit of 2 branches = 50.00%
+
+------------------------------------IF Branch------------------------------------
+    46                                         1     Count coming in to IF
+    46              1                    ***0***             test_bench.cmp_data( ADDR_TCR, task_rdata, 32'h1, 32'hffff_ffff);
+    48              1                          1     
+Branch totals: 1 hit of 2 branches = 50.00%
+
+------------------------------------IF Branch------------------------------------
+    49                                         1     Count coming in to IF
+    49              1                    ***0***             test_bench.apb_wr(ADDR_TCR, 32'h100);
+    51              1                          1             if( status == 0 ) begin
+Branch totals: 1 hit of 2 branches = 50.00%
+
+------------------------------------IF Branch------------------------------------
+    51                                         1     Count coming in to IF
+    51              1                    ***0***             if( status == 0 ) begin
+                                               1     All False Count
+Branch totals: 1 hit of 2 branches = 50.00%
+
+------------------------------------IF Branch------------------------------------
+    55                                         1     Count coming in to IF
+    55              1                          1             #1 status = 0;
+    60              1                    ***0***             test_bench.tsk_rd_pslverr(status);
+Branch totals: 1 hit of 2 branches = 50.00%
+
+------------------------------------IF Branch------------------------------------
+    56                                         1     Count coming in to IF
+    56              1                          1             test_bench.apb_rd( ADDR_TCR, task_rdata);
+    61              1                    ***0***             if( status == 0 ) begin
+Branch totals: 1 hit of 2 branches = 50.00%
+
+------------------------------------IF Branch------------------------------------
+    58                                         1     Count coming in to IF
+    58              1                          1     
+    63              1                    ***0***                 err = 1;
+Branch totals: 1 hit of 2 branches = 50.00%
+
+------------------------------------IF Branch------------------------------------
+    61                                         1     Count coming in to IF
+    61              1                    ***0***             if( status == 0 ) begin
+                                               1     All False Count
+Branch totals: 1 hit of 2 branches = 50.00%
+
+------------------------------------IF Branch------------------------------------
+    76                                       511     Count coming in to IF
+    76              1                    ***0***             test_bench.cmp_data( ADDR_TCR, task_rdata, 32'h102, 32'hffff_ffff);
+    83              1                        511                 $display("Test_result FAILED");
+Branch totals: 1 hit of 2 branches = 50.00%
+
+------------------------------------IF Branch------------------------------------
+    81                                         1     Count coming in to IF
+    81              1                          1     
+    86              1                    ***0***     
+Branch totals: 1 hit of 2 branches = 50.00%
+
+------------------------------------IF Branch------------------------------------
+    82                                         1     Count coming in to IF
+    82              1                    ***0***             if( test_bench.err!=0 || err != 0 )
+    84              1                          1             else
+Branch totals: 1 hit of 2 branches = 50.00%
+
+------------------------------------IF Branch------------------------------------
+    83                                         1     Count coming in to IF
+    83              1                    ***0***                 $display("Test_result FAILED");
+                                               1     All False Count
+Branch totals: 1 hit of 2 branches = 50.00%
+
+------------------------------------IF Branch------------------------------------
+    95                                         1     Count coming in to IF
+Branch totals: 1 hit of 2 branches = 50.00%
+
+------------------------------------IF Branch------------------------------------
+    104                                        1     Count coming in to IF
+Branch totals: 1 hit of 2 branches = 50.00%
+
+------------------------------------IF Branch------------------------------------
+    105                                        1     Count coming in to IF
+Branch totals: 1 hit of 2 branches = 50.00%
+
+------------------------------------IF Branch------------------------------------
+    116                                        1     Count coming in to IF
+Branch totals: 1 hit of 2 branches = 50.00%
+
+------------------------------------IF Branch------------------------------------
+    117                                        1     Count coming in to IF
+Branch totals: 1 hit of 2 branches = 50.00%
+
+------------------------------------IF Branch------------------------------------
+    123                                        1     Count coming in to IF
+Branch totals: 1 hit of 2 branches = 50.00%
+
+------------------------------------IF Branch------------------------------------
+    129                                        1     Count coming in to IF
+Branch totals: 1 hit of 2 branches = 50.00%
+
+------------------------------------IF Branch------------------------------------
+    133                                        1     Count coming in to IF
+Branch totals: 1 hit of 2 branches = 50.00%
+
+------------------------------------IF Branch------------------------------------
+    135                                        1     Count coming in to IF
+Branch totals: 1 hit of 2 branches = 50.00%
+
+------------------------------------IF Branch------------------------------------
+    150                                        1     Count coming in to IF
+Branch totals: 1 hit of 2 branches = 50.00%
+
+------------------------------------IF Branch------------------------------------
+    155                                        1     Count coming in to IF
+                                               1     All False Count
+Branch totals: 1 hit of 2 branches = 50.00%
+
+------------------------------------IF Branch------------------------------------
+    157                                        1     Count coming in to IF
+Branch totals: 1 hit of 2 branches = 50.00%
+
+------------------------------------IF Branch------------------------------------
+    168                                      511     Count coming in to IF
+Branch totals: 1 hit of 2 branches = 50.00%
+
+------------------------------------IF Branch------------------------------------
+    169                                        1     Count coming in to IF
+Branch totals: 1 hit of 2 branches = 50.00%
+
+------------------------------------IF Branch------------------------------------
+    176                                        1     Count coming in to IF
+Branch totals: 1 hit of 2 branches = 50.00%
+
+------------------------------------IF Branch------------------------------------
+    182                                        1     Count coming in to IF
+Branch totals: 1 hit of 2 branches = 50.00%
+
+------------------------------------IF Branch------------------------------------
+    194                                        1     Count coming in to IF
+Branch totals: 1 hit of 2 branches = 50.00%
+
+------------------------------------IF Branch------------------------------------
+    211                                        1     Count coming in to IF
+Branch totals: 1 hit of 2 branches = 50.00%
+
+------------------------------------IF Branch------------------------------------
+    216                                        2     Count coming in to IF
+Branch totals: 1 hit of 2 branches = 50.00%
+
+------------------------------------IF Branch------------------------------------
+    230                                      511     Count coming in to IF
+Branch totals: 1 hit of 2 branches = 50.00%
+
+------------------------------------IF Branch------------------------------------
+    232                                        1     Count coming in to IF
+Branch totals: 1 hit of 2 branches = 50.00%
+
+------------------------------------IF Branch------------------------------------
+    234                                        1     Count coming in to IF
+Branch totals: 1 hit of 2 branches = 50.00%
+
+------------------------------------IF Branch------------------------------------
+    241                                        1     Count coming in to IF
+Branch totals: 1 hit of 2 branches = 50.00%
+
+------------------------------------IF Branch------------------------------------
+    242                                        1     Count coming in to IF
+Branch totals: 1 hit of 2 branches = 50.00%
+
+------------------------------------IF Branch------------------------------------
+    249                                        1     Count coming in to IF
+Branch totals: 1 hit of 2 branches = 50.00%
+
+------------------------------------IF Branch------------------------------------
+    260                                      511     Count coming in to IF
+Branch totals: 1 hit of 2 branches = 50.00%
+
+------------------------------------IF Branch------------------------------------
+    284                                        1     Count coming in to IF
+Branch totals: 1 hit of 2 branches = 50.00%
+
+
+Condition Coverage:
+    Enabled Coverage              Bins   Covered    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Conditions                      61         4        57     6.55%
+
+================================Condition Details================================
+
+Condition Coverage for instance /test_bench --
+
+  File ../tb/test_bench.v
+
+
+----------------Focused Condition View-------------------
+Line       219 Item    1  (pslverr && ~pslverr_exp)
+Condition totals: 0 of 2 input terms covered = 0.00%
+
+   Input Term   Covered  Reason for no coverage   Hint
+  -----------  --------  -----------------------  --------------
+      pslverr         N  '_1' not hit             Hit '_1'
+  pslverr_exp         N  No hits                  Hit '_0' and '_1'
+
+     Rows:       Hits  FEC Target            Non-masking condition(s)      
+ ---------  ---------  --------------------  -------------------------     
+  Row   1:         13  pslverr_0             -                             
+  Row   2:    ***0***  pslverr_1             ~pslverr_exp                  
+  Row   3:    ***0***  pslverr_exp_0         pslverr                       
+  Row   4:    ***0***  pslverr_exp_1         pslverr                       
+
+----------------Focused Condition View-------------------
+Line       262 Item    1  (apb_err_penable || apb_err_psel)
+Condition totals: 0 of 2 input terms covered = 0.00%
+
+       Input Term   Covered  Reason for no coverage   Hint
+      -----------  --------  -----------------------  --------------
+  apb_err_penable         N  '_1' not hit             Hit '_1'
+     apb_err_psel         N  '_1' not hit             Hit '_1'
+
+     Rows:       Hits  FEC Target            Non-masking condition(s)      
+ ---------  ---------  --------------------  -------------------------     
+  Row   1:          1  apb_err_penable_0     ~apb_err_psel                 
+  Row   2:    ***0***  apb_err_penable_1     -                             
+  Row   3:          1  apb_err_psel_0        ~apb_err_penable              
+  Row   4:    ***0***  apb_err_psel_1        ~apb_err_penable              
+
+----------------Focused Condition View-------------------
+Line       306 Item    1  ((in_data & mask) !== (exp_data & mask))
+Condition totals: 0 of 1 input term covered = 0.00%
+
+                                Input Term   Covered  Reason for no coverage   Hint
+                               -----------  --------  -----------------------  --------------
+  ((in_data & mask) !== (exp_data & mask))         N  '_1' not hit             Hit '_1'
+
+     Rows:       Hits  FEC Target                                  Non-masking condition(s)      
+ ---------  ---------  --------------------                        -------------------------     
+  Row   1:         11  ((in_data & mask) !== (exp_data & mask))_0  -                             
+  Row   2:    ***0***  ((in_data & mask) !== (exp_data & mask))_1  -                             
+
+----------------Focused Condition View-------------------
+Line       360 Item    1  ((div_val == 0) || (((div_val != 0) && (idx > 0)) && ((idx % (1 << div_val)) == 0)))
+Condition totals: 0 of 4 input terms covered = 0.00%
+
+                     Input Term   Covered  Reason for no coverage   Hint
+                    -----------  --------  -----------------------  --------------
+                 (div_val == 0)         N  No hits                  Hit '_0' and '_1'
+                 (div_val != 0)         N  No hits                  Hit '_0' and '_1'
+                      (idx > 0)         N  No hits                  Hit '_0' and '_1'
+  ((idx % (1 << div_val)) == 0)         N  No hits                  Hit '_0' and '_1'
+
+     Rows:       Hits  FEC Target                       Non-masking condition(s)      
+ ---------  ---------  --------------------             -------------------------     
+  Row   1:    ***0***  (div_val == 0)_0                 ~(((div_val != 0) && (idx > 0)) && ((idx % (1 << div_val)) == 0))
+  Row   2:    ***0***  (div_val == 0)_1                 -                             
+  Row   3:    ***0***  (div_val != 0)_0                 ~(div_val == 0)               
+  Row   4:    ***0***  (div_val != 0)_1                 (~(div_val == 0) && ((idx % (1 << div_val)) == 0) && (idx > 0))
+  Row   5:    ***0***  (idx > 0)_0                      (~(div_val == 0) && (div_val != 0))
+  Row   6:    ***0***  (idx > 0)_1                      (~(div_val == 0) && ((idx % (1 << div_val)) == 0) && (div_val != 0))
+  Row   7:    ***0***  ((idx % (1 << div_val)) == 0)_0  (~(div_val == 0) && ((div_val != 0) && (idx > 0)))
+  Row   8:    ***0***  ((idx % (1 << div_val)) == 0)_1  (~(div_val == 0) && ((div_val != 0) && (idx > 0)))
+
+
+----------------Focused Condition View-------------------
+Line       18 Item    1  (tim_int === 1'b1)
+Condition totals: 0 of 1 input term covered = 0.00%
+
+          Input Term   Covered  Reason for no coverage   Hint
+         -----------  --------  -----------------------  --------------
+  (tim_int === 1'b1)         N  '_0' not hit             Hit '_0'
+
+     Rows:       Hits  FEC Target            Non-masking condition(s)      
+ ---------  ---------  --------------------  -------------------------     
+  Row   1:    ***0***  (tim_int === 1'b1)_0  -                             
+  Row   2:          1  (tim_int === 1'b1)_1  -                             
+
+----------------Focused Condition View-------------------
+Line       26 Item    1  ((cnt[63:32] == 1) && (cnt[31:0] < 10))
+Condition totals: 0 of 2 input terms covered = 0.00%
+
+         Input Term   Covered  Reason for no coverage   Hint
+        -----------  --------  -----------------------  --------------
+  (cnt[63:32] == 1)         N  '_0' not hit             Hit '_0'
+   (cnt[31:0] < 10)         N  '_0' not hit             Hit '_0'
+
+     Rows:       Hits  FEC Target            Non-masking condition(s)      
+ ---------  ---------  --------------------  -------------------------     
+  Row   1:    ***0***  (cnt[63:32] == 1)_0   -                             
+  Row   2:          1  (cnt[63:32] == 1)_1   (cnt[31:0] < 10)              
+  Row   3:    ***0***  (cnt[31:0] < 10)_0    (cnt[63:32] == 1)             
+  Row   4:          1  (cnt[31:0] < 10)_1    (cnt[63:32] == 1)             
+
+----------------Focused Condition View-------------------
+Line       34 Item    1  (err != 0)
+Condition totals: 0 of 1 input term covered = 0.00%
+
+  Input Term   Covered  Reason for no coverage   Hint
+ -----------  --------  -----------------------  --------------
+  (err != 0)         N  '_1' not hit             Hit '_1'
+
+     Rows:       Hits  FEC Target            Non-masking condition(s)      
+ ---------  ---------  --------------------  -------------------------     
+  Row   1:          1  (err != 0)_0          -                             
+  Row   2:    ***0***  (err != 0)_1          -                             
+
+----------------Focused Condition View-------------------
+Line       36 Item    1  (err != 0)
+Condition totals: 0 of 1 input term covered = 0.00%
+
+  Input Term   Covered  Reason for no coverage   Hint
+ -----------  --------  -----------------------  --------------
+  (err != 0)         N  '_1' not hit             Hit '_1'
+
+     Rows:       Hits  FEC Target            Non-masking condition(s)      
+ ---------  ---------  --------------------  -------------------------     
+  Row   1:          1  (err != 0)_0          -                             
+  Row   2:    ***0***  (err != 0)_1          -                             
+
+----------------Focused Condition View-------------------
+Line       37 Item    1  (cnt !== cnt1)
+Condition totals: 0 of 1 input term covered = 0.00%
+
+      Input Term   Covered  Reason for no coverage   Hint
+     -----------  --------  -----------------------  --------------
+  (cnt !== cnt1)         N  '_0' not hit             Hit '_0'
+
+     Rows:       Hits  FEC Target            Non-masking condition(s)      
+ ---------  ---------  --------------------  -------------------------     
+  Row   1:    ***0***  (cnt !== cnt1)_0      -                             
+  Row   2:          1  (cnt !== cnt1)_1      -                             
+
+----------------Focused Condition View-------------------
+Line       38 Item    1  (cnt !== golden_cnt)
+Condition totals: 0 of 1 input term covered = 0.00%
+
+            Input Term   Covered  Reason for no coverage   Hint
+           -----------  --------  -----------------------  --------------
+  (cnt !== golden_cnt)         N  '_1' not hit             Hit '_1'
+
+     Rows:       Hits  FEC Target              Non-masking condition(s)      
+ ---------  ---------  --------------------    -------------------------     
+  Row   1:          1  (cnt !== golden_cnt)_0  -                             
+  Row   2:    ***0***  (cnt !== golden_cnt)_1  -                             
+
+----------------Focused Condition View-------------------
+Line       43 Item    1  (err != 0)
+Condition totals: 0 of 1 input term covered = 0.00%
+
+  Input Term   Covered  Reason for no coverage   Hint
+ -----------  --------  -----------------------  --------------
+  (err != 0)         N  '_1' not hit             Hit '_1'
+
+     Rows:       Hits  FEC Target            Non-masking condition(s)      
+ ---------  ---------  --------------------  -------------------------     
+  Row   1:          1  (err != 0)_0          -                             
+  Row   2:    ***0***  (err != 0)_1          -                             
+
+----------------Focused Condition View-------------------
+Line       46 Item    1  (err != 0)
+Condition totals: 0 of 1 input term covered = 0.00%
+
+  Input Term   Covered  Reason for no coverage   Hint
+ -----------  --------  -----------------------  --------------
+  (err != 0)         N  '_1' not hit             Hit '_1'
+
+     Rows:       Hits  FEC Target            Non-masking condition(s)      
+ ---------  ---------  --------------------  -------------------------     
+  Row   1:          1  (err != 0)_0          -                             
+  Row   2:    ***0***  (err != 0)_1          -                             
+
+----------------Focused Condition View-------------------
+Line       49 Item    1  (err != 0)
+Condition totals: 0 of 1 input term covered = 0.00%
+
+  Input Term   Covered  Reason for no coverage   Hint
+ -----------  --------  -----------------------  --------------
+  (err != 0)         N  '_1' not hit             Hit '_1'
+
+     Rows:       Hits  FEC Target            Non-masking condition(s)      
+ ---------  ---------  --------------------  -------------------------     
+  Row   1:          1  (err != 0)_0          -                             
+  Row   2:    ***0***  (err != 0)_1          -                             
+
+----------------Focused Condition View-------------------
+Line       55 Item    1  ((cnt[63:32] == 0) && (cnt[31:0] < 10))
+Condition totals: 0 of 2 input terms covered = 0.00%
+
+         Input Term   Covered  Reason for no coverage   Hint
+        -----------  --------  -----------------------  --------------
+  (cnt[63:32] == 0)         N  '_0' not hit             Hit '_0'
+   (cnt[31:0] < 10)         N  '_0' not hit             Hit '_0'
+
+     Rows:       Hits  FEC Target            Non-masking condition(s)      
+ ---------  ---------  --------------------  -------------------------     
+  Row   1:    ***0***  (cnt[63:32] == 0)_0   -                             
+  Row   2:          1  (cnt[63:32] == 0)_1   (cnt[31:0] < 10)              
+  Row   3:    ***0***  (cnt[31:0] < 10)_0    (cnt[63:32] == 0)             
+  Row   4:          1  (cnt[31:0] < 10)_1    (cnt[63:32] == 0)             
+
+----------------Focused Condition View-------------------
+Line       56 Item    1  (tim_int === 1'b1)
+Condition totals: 0 of 1 input term covered = 0.00%
+
+          Input Term   Covered  Reason for no coverage   Hint
+         -----------  --------  -----------------------  --------------
+  (tim_int === 1'b1)         N  '_0' not hit             Hit '_0'
+
+     Rows:       Hits  FEC Target            Non-masking condition(s)      
+ ---------  ---------  --------------------  -------------------------     
+  Row   1:    ***0***  (tim_int === 1'b1)_0  -                             
+  Row   2:          1  (tim_int === 1'b1)_1  -                             
+
+----------------Focused Condition View-------------------
+Line       58 Item    1  (cnt !== cnt1)
+Condition totals: 0 of 1 input term covered = 0.00%
+
+      Input Term   Covered  Reason for no coverage   Hint
+     -----------  --------  -----------------------  --------------
+  (cnt !== cnt1)         N  '_0' not hit             Hit '_0'
+
+     Rows:       Hits  FEC Target            Non-masking condition(s)      
+ ---------  ---------  --------------------  -------------------------     
+  Row   1:    ***0***  (cnt !== cnt1)_0      -                             
+  Row   2:          1  (cnt !== cnt1)_1      -                             
+
+----------------Focused Condition View-------------------
+Line       76 Item    1  (cnt !== (golden_cnt >> idx))
+Condition totals: 0 of 1 input term covered = 0.00%
+
+                     Input Term   Covered  Reason for no coverage   Hint
+                    -----------  --------  -----------------------  --------------
+  (cnt !== (golden_cnt >> idx))         N  '_1' not hit             Hit '_1'
+
+     Rows:       Hits  FEC Target                       Non-masking condition(s)      
+ ---------  ---------  --------------------             -------------------------     
+  Row   1:          1  (cnt !== (golden_cnt >> idx))_0  -                             
+  Row   2:    ***0***  (cnt !== (golden_cnt >> idx))_1  -                             
+
+----------------Focused Condition View-------------------
+Line       81 Item    1  (tim_int === 1'b1)
+Condition totals: 0 of 1 input term covered = 0.00%
+
+          Input Term   Covered  Reason for no coverage   Hint
+         -----------  --------  -----------------------  --------------
+  (tim_int === 1'b1)         N  '_0' not hit             Hit '_0'
+
+     Rows:       Hits  FEC Target            Non-masking condition(s)      
+ ---------  ---------  --------------------  -------------------------     
+  Row   1:    ***0***  (tim_int === 1'b1)_0  -                             
+  Row   2:          1  (tim_int === 1'b1)_1  -                             
+
+----------------Focused Condition View-------------------
+Line       82 Item    1  ((err != 0) || err)
+Condition totals: 0 of 2 input terms covered = 0.00%
+
+  Input Term   Covered  Reason for no coverage   Hint
+ -----------  --------  -----------------------  --------------
+  (err != 0)         N  '_1' not hit             Hit '_1'
+         err         N  '_1' not hit             Hit '_1'
+
+     Rows:       Hits  FEC Target            Non-masking condition(s)      
+ ---------  ---------  --------------------  -------------------------     
+  Row   1:          1  (err != 0)_0          ~err                          
+  Row   2:    ***0***  (err != 0)_1          -                             
+  Row   3:          1  err_0                 ~(err != 0)                   
+  Row   4:    ***0***  err_1                 ~(err != 0)                   
+
+----------------Focused Condition View-------------------
+Line       83 Item    1  ((cnt < 250) || (cnt > 270))
+Condition totals: 0 of 2 input terms covered = 0.00%
+
+   Input Term   Covered  Reason for no coverage   Hint
+  -----------  --------  -----------------------  --------------
+  (cnt < 250)         N  '_1' not hit             Hit '_1'
+  (cnt > 270)         N  '_1' not hit             Hit '_1'
+
+     Rows:       Hits  FEC Target            Non-masking condition(s)      
+ ---------  ---------  --------------------  -------------------------     
+  Row   1:          1  (cnt < 250)_0         ~(cnt > 270)                  
+  Row   2:    ***0***  (cnt < 250)_1         -                             
+  Row   3:          1  (cnt > 270)_0         ~(cnt < 250)                  
+  Row   4:    ***0***  (cnt > 270)_1         ~(cnt < 250)                  
+
+----------------Focused Condition View-------------------
+Line       95 Item    1  (cnt !== cnt1)
+Condition totals: 0 of 1 input term covered = 0.00%
+
+      Input Term   Covered  Reason for no coverage   Hint
+     -----------  --------  -----------------------  --------------
+  (cnt !== cnt1)         N  '_0' not hit             Hit '_0'
+
+     Rows:       Hits  FEC Target            Non-masking condition(s)      
+ ---------  ---------  --------------------  -------------------------     
+  Row   1:    ***0***  (cnt !== cnt1)_0      -                             
+  Row   2:          1  (cnt !== cnt1)_1      -                             
+
+----------------Focused Condition View-------------------
+Line       104 Item    1  (cnt === cnt_save)
+Condition totals: 0 of 1 input term covered = 0.00%
+
+          Input Term   Covered  Reason for no coverage   Hint
+         -----------  --------  -----------------------  --------------
+  (cnt === cnt_save)         N  '_1' not hit             Hit '_1'
+
+     Rows:       Hits  FEC Target            Non-masking condition(s)      
+ ---------  ---------  --------------------  -------------------------     
+  Row   1:          1  (cnt === cnt_save)_0  -                             
+  Row   2:    ***0***  (cnt === cnt_save)_1  -                             
+
+----------------Focused Condition View-------------------
+Line       105 Item    1  ((cnt[63:32] == 1) && (cnt[31:0] < 10))
+Condition totals: 0 of 2 input terms covered = 0.00%
+
+         Input Term   Covered  Reason for no coverage   Hint
+        -----------  --------  -----------------------  --------------
+  (cnt[63:32] == 1)         N  '_0' not hit             Hit '_0'
+   (cnt[31:0] < 10)         N  '_0' not hit             Hit '_0'
+
+     Rows:       Hits  FEC Target            Non-masking condition(s)      
+ ---------  ---------  --------------------  -------------------------     
+  Row   1:    ***0***  (cnt[63:32] == 1)_0   -                             
+  Row   2:          1  (cnt[63:32] == 1)_1   (cnt[31:0] < 10)              
+  Row   3:    ***0***  (cnt[31:0] < 10)_0    (cnt[63:32] == 1)             
+  Row   4:          1  (cnt[31:0] < 10)_1    (cnt[63:32] == 1)             
+
+----------------Focused Condition View-------------------
+Line       116 Item    1  (cnt === cnt1)
+Condition totals: 0 of 1 input term covered = 0.00%
+
+      Input Term   Covered  Reason for no coverage   Hint
+     -----------  --------  -----------------------  --------------
+  (cnt === cnt1)         N  '_0' not hit             Hit '_0'
+
+     Rows:       Hits  FEC Target            Non-masking condition(s)      
+ ---------  ---------  --------------------  -------------------------     
+  Row   1:    ***0***  (cnt === cnt1)_0      -                             
+  Row   2:          1  (cnt === cnt1)_1      -                             
+
+----------------Focused Condition View-------------------
+Line       117 Item    1  (tim_int === 1'b1)
+Condition totals: 0 of 1 input term covered = 0.00%
+
+          Input Term   Covered  Reason for no coverage   Hint
+         -----------  --------  -----------------------  --------------
+  (tim_int === 1'b1)         N  '_1' not hit             Hit '_1'
+
+     Rows:       Hits  FEC Target            Non-masking condition(s)      
+ ---------  ---------  --------------------  -------------------------     
+  Row   1:          1  (tim_int === 1'b1)_0  -                             
+  Row   2:    ***0***  (tim_int === 1'b1)_1  -                             
+
+----------------Focused Condition View-------------------
+Line       123 Item    1  (cnt !== golden_cnt)
+Condition totals: 0 of 1 input term covered = 0.00%
+
+            Input Term   Covered  Reason for no coverage   Hint
+           -----------  --------  -----------------------  --------------
+  (cnt !== golden_cnt)         N  '_1' not hit             Hit '_1'
+
+     Rows:       Hits  FEC Target              Non-masking condition(s)      
+ ---------  ---------  --------------------    -------------------------     
+  Row   1:          1  (cnt !== golden_cnt)_0  -                             
+  Row   2:    ***0***  (cnt !== golden_cnt)_1  -                             
+
+----------------Focused Condition View-------------------
+Line       129 Item    1  (err != 0)
+Condition totals: 0 of 1 input term covered = 0.00%
+
+  Input Term   Covered  Reason for no coverage   Hint
+ -----------  --------  -----------------------  --------------
+  (err != 0)         N  '_1' not hit             Hit '_1'
+
+     Rows:       Hits  FEC Target            Non-masking condition(s)      
+ ---------  ---------  --------------------  -------------------------     
+  Row   1:          1  (err != 0)_0          -                             
+  Row   2:    ***0***  (err != 0)_1          -                             
+
+----------------Focused Condition View-------------------
+Line       133 Item    1  (tim_int === 1'b1)
+Condition totals: 0 of 1 input term covered = 0.00%
+
+          Input Term   Covered  Reason for no coverage   Hint
+         -----------  --------  -----------------------  --------------
+  (tim_int === 1'b1)         N  '_0' not hit             Hit '_0'
+
+     Rows:       Hits  FEC Target            Non-masking condition(s)      
+ ---------  ---------  --------------------  -------------------------     
+  Row   1:    ***0***  (tim_int === 1'b1)_0  -                             
+  Row   2:          1  (tim_int === 1'b1)_1  -                             
+
+----------------Focused Condition View-------------------
+Line       135 Item    1  (cnt === 0)
+Condition totals: 0 of 1 input term covered = 0.00%
+
+   Input Term   Covered  Reason for no coverage   Hint
+  -----------  --------  -----------------------  --------------
+  (cnt === 0)         N  '_0' not hit             Hit '_0'
+
+     Rows:       Hits  FEC Target            Non-masking condition(s)      
+ ---------  ---------  --------------------  -------------------------     
+  Row   1:    ***0***  (cnt === 0)_0         -                             
+  Row   2:          1  (cnt === 0)_1         -                             
+
+----------------Focused Condition View-------------------
+Line       150 Item    1  (tim_int === 1'b1)
+Condition totals: 0 of 1 input term covered = 0.00%
+
+          Input Term   Covered  Reason for no coverage   Hint
+         -----------  --------  -----------------------  --------------
+  (tim_int === 1'b1)         N  '_1' not hit             Hit '_1'
+
+     Rows:       Hits  FEC Target            Non-masking condition(s)      
+ ---------  ---------  --------------------  -------------------------     
+  Row   1:          1  (tim_int === 1'b1)_0  -                             
+  Row   2:    ***0***  (tim_int === 1'b1)_1  -                             
+
+----------------Focused Condition View-------------------
+Line       155 Item    1  ((cnt < 250) || (cnt > 270))
+Condition totals: 0 of 2 input terms covered = 0.00%
+
+   Input Term   Covered  Reason for no coverage   Hint
+  -----------  --------  -----------------------  --------------
+  (cnt < 250)         N  '_1' not hit             Hit '_1'
+  (cnt > 270)         N  '_1' not hit             Hit '_1'
+
+     Rows:       Hits  FEC Target            Non-masking condition(s)      
+ ---------  ---------  --------------------  -------------------------     
+  Row   1:          1  (cnt < 250)_0         ~(cnt > 270)                  
+  Row   2:    ***0***  (cnt < 250)_1         -                             
+  Row   3:          1  (cnt > 270)_0         ~(cnt < 250)                  
+  Row   4:    ***0***  (cnt > 270)_1         ~(cnt < 250)                  
+
+----------------Focused Condition View-------------------
+Line       157 Item    1  (cnt !== golden_cnt)
+Condition totals: 0 of 1 input term covered = 0.00%
+
+            Input Term   Covered  Reason for no coverage   Hint
+           -----------  --------  -----------------------  --------------
+  (cnt !== golden_cnt)         N  '_1' not hit             Hit '_1'
+
+     Rows:       Hits  FEC Target              Non-masking condition(s)      
+ ---------  ---------  --------------------    -------------------------     
+  Row   1:          1  (cnt !== golden_cnt)_0  -                             
+  Row   2:    ***0***  (cnt !== golden_cnt)_1  -                             
+
+----------------Focused Condition View-------------------
+Line       168 Item    1  (cnt !== exp_value)
+Condition totals: 0 of 1 input term covered = 0.00%
+
+           Input Term   Covered  Reason for no coverage   Hint
+          -----------  --------  -----------------------  --------------
+  (cnt !== exp_value)         N  '_1' not hit             Hit '_1'
+
+     Rows:       Hits  FEC Target             Non-masking condition(s)      
+ ---------  ---------  --------------------   -------------------------     
+  Row   1:          1  (cnt !== exp_value)_0  -                             
+  Row   2:    ***0***  (cnt !== exp_value)_1  -                             
+
+----------------Focused Condition View-------------------
+Line       169 Item    1  (err != 0)
+Condition totals: 0 of 1 input term covered = 0.00%
+
+  Input Term   Covered  Reason for no coverage   Hint
+ -----------  --------  -----------------------  --------------
+  (err != 0)         N  '_1' not hit             Hit '_1'
+
+     Rows:       Hits  FEC Target            Non-masking condition(s)      
+ ---------  ---------  --------------------  -------------------------     
+  Row   1:          1  (err != 0)_0          -                             
+  Row   2:    ***0***  (err != 0)_1          -                             
+
+----------------Focused Condition View-------------------
+Line       176 Item    1  (tim_int === 1'b1)
+Condition totals: 0 of 1 input term covered = 0.00%
+
+          Input Term   Covered  Reason for no coverage   Hint
+         -----------  --------  -----------------------  --------------
+  (tim_int === 1'b1)         N  '_1' not hit             Hit '_1'
+
+     Rows:       Hits  FEC Target            Non-masking condition(s)      
+ ---------  ---------  --------------------  -------------------------     
+  Row   1:          1  (tim_int === 1'b1)_0  -                             
+  Row   2:    ***0***  (tim_int === 1'b1)_1  -                             
+
+----------------Focused Condition View-------------------
+Line       182 Item    1  (cnt !== golden_cnt)
+Condition totals: 0 of 1 input term covered = 0.00%
+
+            Input Term   Covered  Reason for no coverage   Hint
+           -----------  --------  -----------------------  --------------
+  (cnt !== golden_cnt)         N  '_1' not hit             Hit '_1'
+
+     Rows:       Hits  FEC Target              Non-masking condition(s)      
+ ---------  ---------  --------------------    -------------------------     
+  Row   1:          1  (cnt !== golden_cnt)_0  -                             
+  Row   2:    ***0***  (cnt !== golden_cnt)_1  -                             
+
+----------------Focused Condition View-------------------
+Line       194 Item    1  (tim_int === 1'b1)
+Condition totals: 0 of 1 input term covered = 0.00%
+
+          Input Term   Covered  Reason for no coverage   Hint
+         -----------  --------  -----------------------  --------------
+  (tim_int === 1'b1)         N  '_0' not hit             Hit '_0'
+
+     Rows:       Hits  FEC Target            Non-masking condition(s)      
+ ---------  ---------  --------------------  -------------------------     
+  Row   1:    ***0***  (tim_int === 1'b1)_0  -                             
+  Row   2:          1  (tim_int === 1'b1)_1  -                             
+
+----------------Focused Condition View-------------------
+Line       211 Item    1  (tim_int === 1'b1)
+Condition totals: 0 of 1 input term covered = 0.00%
+
+          Input Term   Covered  Reason for no coverage   Hint
+         -----------  --------  -----------------------  --------------
+  (tim_int === 1'b1)         N  '_0' not hit             Hit '_0'
+
+     Rows:       Hits  FEC Target            Non-masking condition(s)      
+ ---------  ---------  --------------------  -------------------------     
+  Row   1:    ***0***  (tim_int === 1'b1)_0  -                             
+  Row   2:          1  (tim_int === 1'b1)_1  -                             
+
+----------------Focused Condition View-------------------
+Line       216 Item    1  (cnt !== golden_cnt)
+Condition totals: 0 of 1 input term covered = 0.00%
+
+            Input Term   Covered  Reason for no coverage   Hint
+           -----------  --------  -----------------------  --------------
+  (cnt !== golden_cnt)         N  '_1' not hit             Hit '_1'
+
+     Rows:       Hits  FEC Target              Non-masking condition(s)      
+ ---------  ---------  --------------------    -------------------------     
+  Row   1:          1  (cnt !== golden_cnt)_0  -                             
+  Row   2:    ***0***  (cnt !== golden_cnt)_1  -                             
+
+----------------Focused Condition View-------------------
+Line       230 Item    1  (cnt !== exp_value)
+Condition totals: 0 of 1 input term covered = 0.00%
+
+           Input Term   Covered  Reason for no coverage   Hint
+          -----------  --------  -----------------------  --------------
+  (cnt !== exp_value)         N  '_1' not hit             Hit '_1'
+
+     Rows:       Hits  FEC Target             Non-masking condition(s)      
+ ---------  ---------  --------------------   -------------------------     
+  Row   1:          1  (cnt !== exp_value)_0  -                             
+  Row   2:    ***0***  (cnt !== exp_value)_1  -                             
+
+----------------Focused Condition View-------------------
+Line       232 Item    1  (err != 0)
+Condition totals: 0 of 1 input term covered = 0.00%
+
+  Input Term   Covered  Reason for no coverage   Hint
+ -----------  --------  -----------------------  --------------
+  (err != 0)         N  '_1' not hit             Hit '_1'
+
+     Rows:       Hits  FEC Target            Non-masking condition(s)      
+ ---------  ---------  --------------------  -------------------------     
+  Row   1:          1  (err != 0)_0          -                             
+  Row   2:    ***0***  (err != 0)_1          -                             
+
+----------------Focused Condition View-------------------
+Line       234 Item    1  (tim_int === 1'b1)
+Condition totals: 0 of 1 input term covered = 0.00%
+
+          Input Term   Covered  Reason for no coverage   Hint
+         -----------  --------  -----------------------  --------------
+  (tim_int === 1'b1)         N  '_1' not hit             Hit '_1'
+
+     Rows:       Hits  FEC Target            Non-masking condition(s)      
+ ---------  ---------  --------------------  -------------------------     
+  Row   1:          1  (tim_int === 1'b1)_0  -                             
+  Row   2:    ***0***  (tim_int === 1'b1)_1  -                             
+
+----------------Focused Condition View-------------------
+Line       242 Item    1  (err != 0)
+Condition totals: 0 of 1 input term covered = 0.00%
+
+  Input Term   Covered  Reason for no coverage   Hint
+ -----------  --------  -----------------------  --------------
+  (err != 0)         N  '_1' not hit             Hit '_1'
+
+     Rows:       Hits  FEC Target            Non-masking condition(s)      
+ ---------  ---------  --------------------  -------------------------     
+  Row   1:          1  (err != 0)_0          -                             
+  Row   2:    ***0***  (err != 0)_1          -                             
+
+----------------Focused Condition View-------------------
+Line       249 Item    1  (err != 0)
+Condition totals: 0 of 1 input term covered = 0.00%
+
+  Input Term   Covered  Reason for no coverage   Hint
+ -----------  --------  -----------------------  --------------
+  (err != 0)         N  '_1' not hit             Hit '_1'
+
+     Rows:       Hits  FEC Target            Non-masking condition(s)      
+ ---------  ---------  --------------------  -------------------------     
+  Row   1:          1  (err != 0)_0          -                             
+  Row   2:    ***0***  (err != 0)_1          -                             
+
+----------------Focused Condition View-------------------
+Line       260 Item    1  (cnt1 !== exp_value)
+Condition totals: 0 of 1 input term covered = 0.00%
+
+            Input Term   Covered  Reason for no coverage   Hint
+           -----------  --------  -----------------------  --------------
+  (cnt1 !== exp_value)         N  '_1' not hit             Hit '_1'
+
+     Rows:       Hits  FEC Target              Non-masking condition(s)      
+ ---------  ---------  --------------------    -------------------------     
+  Row   1:          1  (cnt1 !== exp_value)_0  -                             
+  Row   2:    ***0***  (cnt1 !== exp_value)_1  -                             
+
+----------------Focused Condition View-------------------
+Line       284 Item    1  (err != 0)
+Condition totals: 0 of 1 input term covered = 0.00%
+
+  Input Term   Covered  Reason for no coverage   Hint
+ -----------  --------  -----------------------  --------------
+  (err != 0)         N  '_1' not hit             Hit '_1'
+
+     Rows:       Hits  FEC Target            Non-masking condition(s)      
+ ---------  ---------  --------------------  -------------------------     
+  Row   1:          1  (err != 0)_0          -                             
+  Row   2:    ***0***  (err != 0)_1          -                             
+
+
+Statement Coverage:
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Statements                     467       419        48    89.72%
+
+================================Statement Details================================
+
+Statement Coverage for instance /test_bench --
+
+    Line         Item                      Count     Source 
+    ----         ----                      -----     ------ 
+  File ../tb/test_bench.v
+    159             1     			        $display("------------------------------------------------");
+    160             1     			        $display("t=%10d FAIL: pready asserts same time with penable", $time); 
+    161             1     			        $display("------------------------------------------------");
+    162             1                         err=err+1;
+    171             1     			        $display("------------------------------------------------");
+    172             1     			        $display("t=%10d FAIL: pslverr asserts unexpectedly", $time); 
+    173             1     			        $display("------------------------------------------------");
+    174             1                         err=err+1;
+    210             1     			        $display("------------------------------------------------");
+    211             1     			        $display("t=%10d FAIL: pready asserts same time with penable", $time); 
+    212             1     			        $display("------------------------------------------------");
+    213             1                         err=err+1;
+    221             1                         pslverr_high = 1;
+    223             1     			        $display("------------------------------------------------");
+    224             1     			        $display("t=%10d FAIL: pslverr asserts unexpectedly", $time); 
+    225             1     			        $display("------------------------------------------------");
+    226             1                         err=err+1;
+    267             1     			        $display("------------------------------------------------");
+    268             1     			        $display("t=%10d FAIL: pready asserts same time with penable", $time); 
+    269             1     			        $display("------------------------------------------------");
+    270             1                         err=err+1;
+    277             1                         pslverr_high = 1;
+    279             1     			        $display("------------------------------------------------");
+    280             1     			        $display("t=%10d FAIL: pslverr asserts unexpectedly", $time); 
+    281             1     			        $display("------------------------------------------------");
+    282             1                         err=err+1;
+    307             1     			$display("------------------------------------------------");
+    308             1     			$display("t=%10d FAIL: rdata at addr %x is not correct",$time, in_addr);
+    309             1     			$display("Exp: %x Actual:%x",exp_data & mask, in_data & mask);
+    310             1     			$display("------------------------------------------------");
+    311             1                 #100;
+    312             1                 err=err+1;
+    313             1                         #100;
+    314             1                         $finish;
+    357             1                 for( idx =0; idx < cnt_chk_cycle; idx = idx+1) begin
+    357             2     
+    358             1                     @(posedge clk); 
+    359             1                     #1;
+    361             1                         exp_cnt = exp_cnt + 1;
+    404             1                     $display("DBG MODE IS OFF");
+Toggle Coverage:
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Toggles                        714       443       271    62.04%
+
+================================Toggle Details================================
+
+Toggle Coverage for instance /test_bench --
+
+                                              Node      1H->0L      0L->1H  "Coverage"
+                                              ---------------------------------------
+                                   apb_err_penable           1           1      100.00 
+                                      apb_err_psel           1           1      100.00 
+                                               clk          13          13      100.00 
+                               cnt_chk_cycle[0-31]           0           0        0.00 
+                                        cnt_chk_en           0           0        0.00 
+                                          dbg_mode           0           2       50.00 
+                                      div_val[0-3]           0           0        0.00 
+                                         err[0-31]           0           0        0.00 
+                                     exp_cnt[0-63]           0           0        0.00 
+                                   golden_cnt[0-2]           7           7      100.00 
+                                     golden_cnt[3]           6           7      100.00 
+                                     golden_cnt[4]           6           6      100.00 
+                                     golden_cnt[5]           4           5      100.00 
+                                   golden_cnt[6-8]           4           4      100.00 
+                                     golden_cnt[9]           3           4      100.00 
+                                    golden_cnt[10]           2           3      100.00 
+                                 golden_cnt[11-40]           2           2      100.00 
+                                 golden_cnt[41-63]           1           1      100.00 
+                                 golden_cnt_cfg[0]           1           1      100.00 
+                              golden_cnt_cfg[1-40]           2           2      100.00 
+                             golden_cnt_cfg[41-63]           1           1      100.00 
+                                 golden_cnt_cfg_en           3           3      100.00 
+                                        paddr[0-1]           1           1      100.00 
+                                          paddr[2]          12          12      100.00 
+                                          paddr[3]          10          10      100.00 
+                                          paddr[4]           8           8      100.00 
+                                       paddr[5-11]           1           1      100.00 
+                                           penable          13          13      100.00 
+                                         prdata[0]          12          12      100.00 
+                                         prdata[1]          11          11      100.00 
+                                         prdata[2]           8           8      100.00 
+                                         prdata[3]           6           6      100.00 
+                                         prdata[4]          10          10      100.00 
+                                         prdata[5]           8           8      100.00 
+                                         prdata[6]           7           7      100.00 
+                                         prdata[7]           5           5      100.00 
+                                         prdata[8]          12          12      100.00 
+                                         prdata[9]          10          10      100.00 
+                                     prdata[10-11]           7           7      100.00 
+                                     prdata[12-13]           9           9      100.00 
+                                        prdata[14]           7           7      100.00 
+                                        prdata[15]           6           6      100.00 
+                                     prdata[16-17]           9           9      100.00 
+                                        prdata[18]           7           7      100.00 
+                                        prdata[19]           6           6      100.00 
+                                     prdata[20-21]           9           9      100.00 
+                                        prdata[22]           7           7      100.00 
+                                        prdata[23]           6           6      100.00 
+                                     prdata[24-25]           9           9      100.00 
+                                        prdata[26]           7           7      100.00 
+                                        prdata[27]           6           6      100.00 
+                                     prdata[28-29]           9           9      100.00 
+                                        prdata[30]           7           7      100.00 
+                                        prdata[31]           6           6      100.00 
+                                            pready          13          13      100.00 
+                                   pready_chk_fail           0           0        0.00 
+                                              psel          13          13      100.00 
+                                           pslverr           2           2      100.00 
+                                  pslverr_chk_fail           0           0        0.00 
+                                       pslverr_exp           2           2      100.00 
+                                      pslverr_high           2           2      100.00 
+                                        pstrb[0-3]           1           1      100.00 
+                                       pwdata[0-1]          12          12      100.00 
+                                         pwdata[2]          11          11      100.00 
+                                         pwdata[3]           9           9      100.00 
+                                       pwdata[4-6]          11          11      100.00 
+                                         pwdata[7]           9           9      100.00 
+                                      pwdata[8-10]          11          11      100.00 
+                                        pwdata[11]           9           9      100.00 
+                                     pwdata[12-14]          10          10      100.00 
+                                        pwdata[15]           8           8      100.00 
+                                     pwdata[16-18]          10          10      100.00 
+                                        pwdata[19]           8           8      100.00 
+                                     pwdata[20-22]          10          10      100.00 
+                                        pwdata[23]           8           8      100.00 
+                                     pwdata[24-26]          10          10      100.00 
+                                        pwdata[27]           8           8      100.00 
+                                     pwdata[28-30]          10          10      100.00 
+                                        pwdata[31]           8           8      100.00 
+                                            pwrite          12          12      100.00 
+                                             rst_n           2          13      100.00 
+                                           tim_int           3           3      100.00 
+
+Total Node Count     =        357 
+Toggled Node Count   =        221 
+Untoggled Node Count =        136 
+
+Toggle Coverage      =      62.04% (443 of 714 bins)
+
+
+Total Coverage By Instance (filtered view): 61.32%
+

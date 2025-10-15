@@ -1,0 +1,7 @@
+HOW TO RUN GOLDEN MODEL
+1. Put your RTL to rtl folder (port names should match the requirement)
+2. Prepare rtl.f in sim folder
+3. Modify pat.list if any to select testcase need to run
+4. Execute run.csh to run all the testcases in pat.list. Add option "cov" to generate coverage database and gen report
+5. Execute report.csh to see the report for testcases in pat.list
+

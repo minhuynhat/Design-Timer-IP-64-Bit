@@ -1,0 +1,68 @@
+# vsim -debugDB -coverage -l apb_multiple_access.log -c test_bench -voptargs="+access+cover=bcesft" -assertdebug -do "coverage save -onexit apb_multiple_access.ucdb; log -r /*;run -all" 
+# Start time: 14:32:23 on Sep 28,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Note: (vsim-8611) Generating debug db.
+# ** Warning: (vopt-4308) Enabling visibility using +acc is recommended with debug flow.
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=1.
+# //  Questa Intel Starter FPGA Edition-64
+# //  Version 2024.3 linux_x86_64 Sep 10 2024
+# //
+# // Unpublished work. Copyright 2024 Siemens
+# //
+# // This material contains trade secrets or otherwise confidential information
+# // owned by Siemens Industry Software Inc. or its affiliates (collectively,
+# // "SISW"), or its licensors. Access to and use of this information is strictly
+# // limited as set forth in the Customer's applicable agreements with SISW.
+# //
+# // This material may not be copied, distributed, or otherwise disclosed outside
+# // of the Customer's facilities without the express written permission of SISW,
+# // and may not be used in any way not expressly authorized by SISW.
+# //
+# Loading work.test_bench(fast)
+# Loading work.timer_top(fast)
+# Loading work.apb_slave(fast)
+# Loading work.reg_file(fast)
+# Loading work.counter_ctrl(fast)
+# Loading work.interrupt(fast)
+# Loading work.mod_golden_cnt(fast)
+# ** Note: (vsim-8900) Creating design debug database vsim.dbg.
+# coverage save -onexit apb_multiple_access.ucdb
+#  log -r /*
+# run -all
+# =========================================
+# === Test Case: APB Multi-access Test ====
+# =========================================
+# multiple APB access
+# write TDR0 & write TDR1
+# normal read
+# t=       625 [TB_READ]: addr=00000004 rdata=11111111
+# ------------------------------------------------
+# t=       625 PASS: rdata = 11111111 at addr 00000004 is correct
+# ------------------------------------------------
+# t=       825 [TB_READ]: addr=00000008 rdata=22222222
+# ------------------------------------------------
+# t=       825 PASS: rdata = 22222222 at addr 00000008 is correct
+# ------------------------------------------------
+# normal write
+# t=       825 [TB_WRITE]: addr=00000004 data=33333333
+# t=      1026 [TB_WRITE]: addr=00000008 data=44444444
+# multiple read
+# ------------------------------------------------
+# t=      1376 PASS: rdata = 33333333 at addr 00000004 is correct
+# ------------------------------------------------
+# ------------------------------------------------
+# t=      1526 PASS: rdata = 44444444 at addr 00000008 is correct
+# ------------------------------------------------
+# w-r(TDR0)-w-r(TDR1)
+# ------------------------------------------------
+# t=      1876 PASS: rdata = 55555555 at addr 00000004 is correct
+# ------------------------------------------------
+# ------------------------------------------------
+# t=      2176 PASS: rdata = 66666666 at addr 00000008 is correct
+# ------------------------------------------------
+# Test_result PASSED
+# ** Note: $finish    : ../tb/test_bench.v(94)
+#    Time: 2326 ns  Iteration: 0  Instance: /test_bench
+# Saving coverage database on exit...
+# End time: 14:32:24 on Sep 28,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 1
